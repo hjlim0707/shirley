@@ -7,32 +7,44 @@ import Link from '../link';
 import Styles from './styles.scss';
 
 export default class Header extends React.PureComponent {
+  state = {
+    leftContent: 'full',
+  };
+
   leftContent() {
-    const windowSize = window.innerWidth;
-    switch (true) {
-      case (windowSize < 768):
-        return null;
-        break;
-      case (windowSize < 1260):
-        return (<div className='col-9'>Shirley Huong</div>);
-        break;
-      default:
-        return (
-          <div className='col-9'>
-          Shirley Huong is a product designer based in <br/>
-          Brooklyn, NYC. She currently works at <br/>
-          <Link text='Paperless Post' href='https://www.paperlesspost.com' />,
-          focusing on Mobile Products.
-          </div>)
-        break;
-    }
+    return this.state.leftContent === 'full' ? (
+      <div className='header-description col-12 col-lg-8 col-xl-9'>
+        <a className='name' onClick={this.onClick}>Shirley Huong </a>
+        is a product designer based in <br/>
+        Brooklyn, NYC. She currently works at <br/>
+        <Link text='Paperless Post' href='https://www.paperlesspost.com' />,
+        focusing on Mobile Products.
+      </div>
+    ) : (
+      <div className='header-description col-12 col-lg-8 col-xl-9'>
+        <a className='name' onClick={this.onClick}>Shirley Huong</a>
+      </div>
+    )
   }
+
+  onClick = () => {
+    window.scrollTo(0,0);
+  }
+
+  handleScroll = () => {
+    window.pageYOffset === 0 ? this.setState({ leftContent: 'full' }) : this.setState({ leftContent: 'condensed' });
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
   render() {
     return (
       <div className='home-header container-fluid'>
         <div className='row'>
           {this.leftContent()}
-          <div className='ctas col-3'>
+          <div className='ctas col-12 col-lg-4 col-xl-3'>
             <Link text='Email' href='mailto:huongshirley@gmail.com'/>
             <Link text='Resume' href='../../assets/Shirley_Huong_Resume.pdf' />
             <Link text='IG' href='http://www.instagram.com'/>
