@@ -18,7 +18,7 @@ export default class Header extends React.PureComponent {
         break;
       default:
         return (
-          <div className='col-10'>
+          <div className='col-9'>
           Shirley Huong is a product designer based in <br/>
           Brooklyn, NYC. She currently works at <br/>
           <Link text='Paperless Post' href='https://www.paperlesspost.com' />,
@@ -32,9 +32,9 @@ export default class Header extends React.PureComponent {
       <div className='home-header container-fluid'>
         <div className='row'>
           {this.leftContent()}
-          <div className='ctas col-2'>
+          <div className='ctas col-3'>
             <Link text='Email' href='mailto:huongshirley@gmail.com'/>
-            <Link text='Resume' href='mailto:huongshirley@gmail.com'/>
+            <Link text='Resume' href='../../assets/Shirley_Huong_Resume.pdf' />
             <Link text='IG' href='http://www.instagram.com'/>
           </div>
         </div>

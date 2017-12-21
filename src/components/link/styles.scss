@@ -1,10 +1,21 @@
 .cta {
+  display: inline-block;
   text-decoration: none;
   color: black;
   padding-bottom: 10px;
-  border-bottom: 1px solid black;
 
   &:hover {
     text-decoration: none;
+  }
+  &::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #000;
+      transition: width .3s;
+  }
+  &:hover::after {
+      width: 100%;
   }
 }

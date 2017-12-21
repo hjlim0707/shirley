@@ -4,8 +4,6 @@ import Header from '../../components/header';
 import ProductCaseSection from '../../components/product_case_section';
 import GDCaseSection from '../../components/gd_case_section';
 
-import Styles from './styles.scss';
-
 export default class Home extends React.PureComponent {
   render() {
     return (

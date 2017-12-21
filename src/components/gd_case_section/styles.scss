@@ -17,16 +17,11 @@
   padding: 50px 0;
 
   img {
-    display: inline;
-    padding-right: 10px;
-  }
-  .pp-icon{
-    max-height: 4em;
-    max-width: 10em;
-  }
-  .nike-icon {
-    max-height: 3em;
-    max-width: 5em;
+    position: relative;
+    bottom: 8px;
+    margin-left: 7px;
+    padding-right: 7px;
+    width: 3em;
   }
 
   .gd-case-link {
@@ -36,11 +31,11 @@
 
   .gd-case-title {
     font-family: 'akdidenz-bold';
-    font-size: 42px;
+    font-size: 3vw;
   }
 
   .horizontal-line {
-    font-size: 40px;
+    font-size: 2.75vw;
     font-weight: 100;
     padding: 0px 10px 30px;
   }
@@ -49,8 +44,4 @@
     font-family: 'perpetua';
     font-size: 40px;
   }
-}
-
-#post {
-  margin-top: 160px;
 }

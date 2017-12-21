@@ -16,6 +16,10 @@
   border-bottom: 1px solid black;
   padding: 50px 0;
 
+  &:hover {
+    background-color: blue;
+  }
+
   img {
     display: inline;
     padding-right: 10px;
@@ -36,21 +40,21 @@
 
   .product-case-title {
     font-family: 'akdidenz-bold';
-    font-size: 42px;
+    font-size: 3vw;
   }
 
   .horizontal-line {
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 100;
     padding: 0px 10px 30px;
   }
 
   .product-case-description {
     font-family: 'perpetua';
-    font-size: 40px;
+    font-size: 2.75vw;
   }
 }
 
 #post {
-  margin-top: 160px;
+  margin-top: 170px;
 }

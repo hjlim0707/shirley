@@ -34,7 +34,7 @@ export default class ProductCaseSection extends React.PureComponent {
     return (
       <div className='product-case-section' id={this.props.id}>
         <div className='col-md-8 offset-md-2'>
-          <Link className='product-case-link' to={this.props.title}>
+          <Link className='product-case-link' to={`/product/${this.props.title}`}>
             {this.renderPPIcon()}
             <span className='product-case-title'>
               {this.props.title}
