@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from '../../components/header';
-import CaseDetailSection from '../../components/case_detail_section';
+import ProductCaseSection from '../../components/product_case_section';
+import GDCaseSection from '../../components/gd_case_section';
 
 import Styles from './styles.scss';
 
@@ -10,46 +11,44 @@ export default class Home extends React.PureComponent {
     return (
       <div className='home-container'>
         <Header />
-        <CaseDetailSection
-          id='flyer'
+        <ProductCaseSection
+        id='post'
+        title='post'
+        description='Reimagining invites through design and technology.'
+        />
+        <ProductCaseSection
           title='flyer'
-          description='An event planning app for casual get togethers'
+          description='An event planning app for casual get togethers.'
         />
-        <CaseDetailSection
-          title='post'
-          description='Reimagining invites through design and technology'
-        />
-        <CaseDetailSection
+        <ProductCaseSection
+          id='nike'
           title='linkNYC'
-          description='Technology to improve your running form'
+          description='Technology to improve your running form.'
         />
-        <CaseDetailSection
-          title='sva'
-          description='An app for SVA students to access info on the go'
+        <ProductCaseSection
+        title='mizu'
+        description='A meditation mood music app that helps you relax.'
         />
-        <CaseDetailSection
-          title='mizu'
-          description='A meditation mood music app that helps you relax'
+        <GDCaseSection
+          title='tuft & needle'
+          description='A mattress company disrupting sleep.'
         />
-        <CaseDetailSection
-          title='mizu'
-          description='A meditation mood music app that helps you relax'
+        <GDCaseSection
+          id='chi'
+          title='chi'
+          description='A mail order catalog based on feng shui.'
         />
-        <CaseDetailSection
-          title='mizu'
-          description='A meditation mood music app that helps you relax'
+        <GDCaseSection
+          title='night snack club'
+          description='Self-initiated projects.'
         />
-        <CaseDetailSection
-          title='mizu'
-          description='A meditation mood music app that helps you relax'
+        <GDCaseSection
+          title='standard'
+          description='Reimagining paint containers with a new identity.'
         />
-        <CaseDetailSection
-          title='mizu'
-          description='A meditation mood music app that helps you relax'
-        />
-        <CaseDetailSection
-          title='mizu'
-          description='A meditation mood music app that helps you relax'
+        <GDCaseSection
+          title='floating chain'
+          description="Invitations for Jonah Freeman & Justin Lowe's art exhibition."
         />
       </div>
     );

@@ -32,8 +32,8 @@ module.exports = {
           { loader: "sass-loader" }
         ]})
       }, {
-        test: /\.(png|jpg|jpeg|gif|woff|woff2|eot|ttf|svg)/,
-        loader: 'file-loader'
+        test: /\.(png|jpg|jpeg|gif|woff|woff2|eot|ttf|svg|otf)$/,
+        loader: 'url-loader?limit=100000'
       }
     ]
   },
@@ -46,8 +46,8 @@ module.exports = {
       template: path.resolve(__dirname, '../src/index.html'),
   }), new HtmlWebpackHarddiskPlugin(),
     new CopyWebpackPlugin([{
-      from: 'src/public',
-      to: 'public'
+      from: 'src/assets',
+      to: 'assets'
     }])
   ],
   resolve: {

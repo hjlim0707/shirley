@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './containers/Home';
-import CaseDetail from './containers/CaseDetail';
+import ProductCaseDetail from './containers/ProductCaseDetail';
 
 import './App.scss';
 
@@ -11,7 +11,7 @@ export default class App extends Component {
       <section className="main">
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route path="/:detail" component={CaseDetail}/>
+          <Route path="/:detail" component={ProductCaseDetail}/>
         </Switch>
       </section>
     )

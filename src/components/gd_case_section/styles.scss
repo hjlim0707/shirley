@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'akdidenz-bold';
+  src: url('../../fonts/AkzidenzGrotesk-BoldExtended.otf');
+}
+
+@font-face {
+  font-family: 'perpetua';
+  src: url('../../fonts/font-map-perpetua-titling-mt.png');
+}
+
+.gd-case-section {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f9f9f9;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 50px 0;
+
+  img {
+    display: inline;
+    padding-right: 10px;
+  }
+  .pp-icon{
+    max-height: 4em;
+    max-width: 10em;
+  }
+  .nike-icon {
+    max-height: 3em;
+    max-width: 5em;
+  }
+
+  .gd-case-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .gd-case-title {
+    font-family: 'akdidenz-bold';
+    font-size: 42px;
+  }
+
+  .horizontal-line {
+    font-size: 40px;
+    font-weight: 100;
+    padding: 0px 10px 30px;
+  }
+
+  .gd-case-description {
+    font-family: 'perpetua';
+    font-size: 40px;
+  }
+}
+
+#post {
+  margin-top: 160px;
+}

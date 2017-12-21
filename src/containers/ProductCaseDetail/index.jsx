@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-export default class CaseDetail extends React.PureComponent {
+export default class ProductCaseDetail extends React.PureComponent {
   render() {
     return (
       <h1>
