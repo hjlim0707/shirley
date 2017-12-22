@@ -10,6 +10,7 @@
   }
   &::after {
       content: '';
+      margin-bottom: -1px;
       display: block;
       width: 0;
       height: 1px;

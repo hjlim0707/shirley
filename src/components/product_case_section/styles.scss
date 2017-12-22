@@ -41,6 +41,9 @@
   .product-case-title {
     font-family: 'akdidenz-bold';
     font-size: 3vw;
+    @media(max-width: 768px) {
+      font-size: 4.25vw;
+    }
   }
 
   .horizontal-line {
@@ -52,9 +55,8 @@
   .product-case-description {
     font-family: 'perpetua';
     font-size: 2.75vw;
+    @media(max-width: 768px) {
+      font-size: 4vw;
+    }
   }
-}
-
-#post {
-  margin-top: 170px;
 }

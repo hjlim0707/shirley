@@ -16,6 +16,10 @@
   border-bottom: 1px solid black;
   padding: 50px 0;
 
+  &:hover {
+    background-color: blue;
+  }
+
   img {
     position: relative;
     bottom: 8px;
@@ -32,16 +36,22 @@
   .gd-case-title {
     font-family: 'akdidenz-bold';
     font-size: 3vw;
+    @media(max-width: 768px) {
+      font-size: 4.25vw;
+    }
   }
 
   .horizontal-line {
-    font-size: 2.75vw;
+    font-size: 3vw;
     font-weight: 100;
     padding: 0px 10px 30px;
   }
 
   .gd-case-description {
     font-family: 'perpetua';
-    font-size: 40px;
+    font-size: 2.75vw;
+    @media(max-width: 768px) {
+      font-size: 4vw;
+    }
   }
 }

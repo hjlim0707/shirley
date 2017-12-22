@@ -33,10 +33,14 @@ export default class Header extends React.PureComponent {
 
   handleScroll = () => {
     window.pageYOffset === 0 ? this.setState({ leftContent: 'full' }) : this.setState({ leftContent: 'condensed' });
+    const headerHeight = document.querySelector('.home-header').offsetHeight;
+    document.querySelector('#post').style['marginTop'] = `${headerHeight}px`;
   }
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
+    const headerHeight = document.querySelector('.home-header').offsetHeight;
+    document.querySelector('#post').style['marginTop'] =`${headerHeight}px`;
   }
 
   render() {
