@@ -16,6 +16,18 @@ export default class GDCaseSection extends React.PureComponent {
     id: '',
   };
 
+  hover = (e) => {
+    if (e.target.id === 'chi' ) {
+      document.querySelector('.chi-icon').setAttribute('src', '../../assets/White_YingYang.svg');
+    }
+  }
+
+  unhover = (e) => {
+    if (e.target.id === 'chi' ) {
+      document.querySelector('.chi-icon').setAttribute('src', '../../assets/YingYang.svg');
+    }
+  }
+
   renderChiIcon() {
     return this.props.id === 'chi' ? (
       <span>
@@ -25,7 +37,7 @@ export default class GDCaseSection extends React.PureComponent {
 
   render() {
     return (
-      <div className='gd-case-section' id={this.props.id}>
+      <div className='gd-case-section' id={this.props.id} onMouseOver={this.hover} onMouseLeave={this.unhover}>
         <div className='col-md-8 offset-md-2'>
           <Link className='gd-case-link' to={`/gd/${this.props.title}`}>
             <span className='gd-case-title'>

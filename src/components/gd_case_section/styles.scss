@@ -17,7 +17,17 @@
   padding: 50px 0;
 
   &:hover {
-    background-color: blue;
+    background-color: black;
+  }
+
+  &:hover .gd-case-title {
+    color: white;
+  }
+  &:hover .horizontal-line {
+    color: white;
+  }
+  &:hover .gd-case-description {
+    color: white;
   }
 
   img {
