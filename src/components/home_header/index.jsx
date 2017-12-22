@@ -6,7 +6,7 @@ import Link from '../link';
 
 import Styles from './styles.scss';
 
-export default class Header extends React.PureComponent {
+export default class HomeHeader extends React.PureComponent {
   state = {
     leftContent: 'full',
   };

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from '../../components/header';
+import HomeHeader from '../../components/home_header';
 import ProductCaseSection from '../../components/product_case_section';
 import GDCaseSection from '../../components/gd_case_section';
 
@@ -8,7 +8,7 @@ export default class Home extends React.PureComponent {
   render() {
     return (
       <div className='home-container'>
-        <Header />
+        <HomeHeader />
         <ProductCaseSection
         id='post'
         title='post'

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import Styles from './styles.scss';
 
 const Link = (props) => (
-  <a className='cta' href={props.href} target='_blank'>
+  <a className='cta' href={props.href}>
     {props.text}
   </a>
 );

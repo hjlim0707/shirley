@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'akdidenz-bold';
+  src: url('../../fonts/AkzidenzGrotesk-BoldExtended.otf');
+}
+
+@font-face {
+  font-family: 'akdidenz-reg';
+  src: url('../../fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf');
+}
+
+.description {
+  padding: 1.5em 1em;
+
+  .description-title {
+    font-family: 'akdidenz-bold';
+    font-size: 1.25em;
+    text-transform: uppercase;
+  }
+  .description-text {
+    font-family: 'akdidenz-reg';
+    font-size: 1.25em;
+  }
+}

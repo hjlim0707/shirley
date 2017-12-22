@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'akdidenz-bold';
+  src: url('../../fonts/AkzidenzGrotesk-BoldExtended.otf');
+}
+
+.product-detail-container {
+  img.hero {
+    margin-left: 15px;
+  }
+  img.prev, img.journey, img.placeholder {
+    max-width: 100%;
+  }
+
+  img.journey {
+    margin-bottom: 0.75em;
+  }
+
+  img.placeholder {
+    margin-top: 0.75em;
+  }
+}
