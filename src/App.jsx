@@ -7,6 +7,9 @@ import LinkNYC from './containers/LinkNYC';
 import Mizu from './containers/Mizu';
 import TuftAndNeedle from './containers/TuftAndNeedle';
 import Chi from './containers/Chi';
+import NightSnackClub from './containers/NightSnackClub';
+import Standard from './containers/Standard';
+import FloatingChain from './containers/FloatingChain';
 
 import './App.scss';
 
@@ -22,6 +25,9 @@ export default class App extends Component {
           <Route path="/product/mizu" component={Mizu}/>
           <Route path="/gd/tuft & needle" component={TuftAndNeedle}/>
           <Route path="/gd/chi" component={Chi}/>
+          <Route path="/gd/night snack club" component={NightSnackClub}/>
+          <Route path="/gd/standard" component={Standard}/>
+          <Route path="/gd/floating chain" component={FloatingChain}/>
         </Switch>
       </section>
     )
