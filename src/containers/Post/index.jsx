@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import DetailHeader from '../../components/detail_header';
+import DetailFooter from '../../components/detail_footer';
 import Description from '../../components/description';
 
 import Styles from './styles.scss';
@@ -140,6 +141,7 @@ We want to help our users to feel confident with our brand and have fun while ch
             />
           </div>
         </div>
+        <DetailFooter prev={{text: 'Floating Chain', href: '/gd/floating chain'}} next={{text: 'Flyer', href: 'flyer'}}/>
       </div>
     )
   }

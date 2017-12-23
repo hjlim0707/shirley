@@ -5,7 +5,8 @@ import Post from './containers/Post';
 import Flyer from './containers/Flyer';
 import LinkNYC from './containers/LinkNYC';
 import Mizu from './containers/Mizu';
-import GDCaseDetail from './containers/GDCaseDetail';
+import TuftAndNeedle from './containers/TuftAndNeedle';
+import Chi from './containers/Chi';
 
 import './App.scss';
 
@@ -19,7 +20,8 @@ export default class App extends Component {
           <Route path="/product/flyer" component={Flyer}/>
           <Route path="/product/linkNYC" component={LinkNYC}/>
           <Route path="/product/mizu" component={Mizu}/>
-          <Route path="/product/post" component={Post}/>
+          <Route path="/gd/tuft & needle" component={TuftAndNeedle}/>
+          <Route path="/gd/chi" component={Chi}/>
         </Switch>
       </section>
     )

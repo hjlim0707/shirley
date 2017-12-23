@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import DetailHeader from '../../components/detail_header';
 import Description from '../../components/description';
+import DetailFooter from '../../components/detail_footer';
 
 import Styles from './styles.scss';
 
@@ -121,6 +122,7 @@ Since the guests may not all have the Flyer app on their phone, they will receiv
             />
           </div>
         </div>
+        <DetailFooter prev={{text: 'Paperless Post', href: 'post'}} next={{text: 'LinkNYC', href: 'linkNYC'}}/>
       </div>
     )
   }

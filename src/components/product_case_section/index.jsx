@@ -13,7 +13,7 @@ export default class ProductCaseSection extends React.PureComponent {
   };
 
   static defaultProps = {
-    id: '',
+    id: null,
   };
 
   hover = (e) => {

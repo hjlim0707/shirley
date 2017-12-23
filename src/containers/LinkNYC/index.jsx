@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import DetailHeader from '../../components/detail_header';
 import Description from '../../components/description';
+import DetailFooter from '../../components/detail_footer';
 
 import Styles from './styles.scss';
 
@@ -149,6 +150,7 @@ The icons are inspired by the running, being simple and to remain elegant over t
           <img src='../../assets/LinkNYC/12_Cadence.gif'/>
           <img src='../../assets/LinkNYC/13_Tattoo.gif'/>
         </div>
+        <DetailFooter prev={{text: 'Flyer', href: 'flyer'}} next={{text: 'Mizu', href: 'mizu'}}/>
       </div>
     )
   }

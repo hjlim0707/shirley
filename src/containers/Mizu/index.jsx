@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import DetailHeader from '../../components/detail_header';
 import Description from '../../components/description';
+import DetailFooter from '../../components/detail_footer';
 
 import Styles from './styles.scss';
 
@@ -114,6 +115,7 @@ export default class Mizu extends React.PureComponent {
             <img className='iphone' src='../../assets/Mizu/6_iPhone.gif' />
           </div>
         </div>
+        <DetailFooter prev={{text: 'LinkNYC', href: 'linknyc'}} next={{text: 'Tuft & Needle', href: '/gd/tuft & needle'}}/>
       </div>
     )
   }

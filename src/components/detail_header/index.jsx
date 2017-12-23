@@ -18,7 +18,7 @@ export default class DetailHeader extends React.PureComponent {
           <div className='col-10 col-md-11 title'>
             {this.props.title}
           </div>
-          <div className='col-2 col-md-1'>
+          <div className='col-2 col-md-1 right-cta'>
             <Link text='Work' href='/'/>
           </div>
         </div>

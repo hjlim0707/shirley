@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'perpetua';
+  src: url('../../fonts/font-map-perpetua-titling-mt.png');
+}
+
+@font-face {
+  font-family: 'akdidenz-med';
+  src: url('../../fonts/Akzidenz-Grotesk-BQ-Medium_2839.ttf');
+}
+
+.detail-footer {
+  background-color: #fff4e1;
+  padding: 1em;
+
+  .title {
+    font-family: 'akdidenz-med';
+  }
+
+  .link {
+    font-family: 'perpetua';
+    text-transform: uppercase;
+    font-size: 4vw;
+    @media(min-width: 960px) {
+      font-size: 3vw;
+    }
+  }
+
+  .right-cta {
+    text-align: right;
+  }
+}
