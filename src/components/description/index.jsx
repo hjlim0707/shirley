@@ -10,6 +10,28 @@ export default class Description extends React.PureComponent {
     text: PropTypes.string.isRequired,
   }
 
+  renderFormattedText() {
+    const textContent = this.props.text.split('<br/>');
+    if(textContent.length > 1) {
+      return (
+        <div className='description-text'>
+          {textContent.map((text, index) => {
+            if(index !== textContent.length - 1) {
+              return (
+            <div key={index}>
+              {text}
+              <br/>
+            </div>
+          )}
+          return <div>{text}</div>;
+          }
+          )}
+        </div>
+      )
+    }
+    return this.props.text;
+  }
+
   render() {
     return (
       <div className='description'>
@@ -17,7 +39,7 @@ export default class Description extends React.PureComponent {
           {this.props.title}
         </div>
         <div className='description-text'>
-          {this.props.text}
+          {this.renderFormattedText()}
         </div>
       </div>
     );
