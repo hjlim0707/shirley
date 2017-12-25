@@ -71,16 +71,24 @@ export default class Mizu extends React.PureComponent {
             </div>
           </div>
           <div className='row'>
-            <img className='col-12 col-md-10' src='../../assets/Mizu/2_placeholder.png' height='400px'/>
+            <div className='col-12 col-md-10'>
+              <img src='../../assets/Mizu/2_placeholder.png' height='400px'/>
+              <div className='pic-desc'>Affinity mapping with user trends</div>
+            </div>
           </div>
-          <div className='col-12 col-md-7'>
-            <Description
-              title='Prototyping'
-              text='From those insights I found 3 main trends. Feelings of anxiety and stress were present when their work wasn’t done. 3 out of 4 users gets less than 6 hours of sleep per day. All users had busy schedules that involved either a full-time job or school. Users had a difficult time managing their stress, due to their busy work and school schedule. I decided to create Mizu, a music meditation app that helps people de-stress with their hectic lifestyles.'
-            />
+          <div className='row'>
+            <div className='col-12 col-md-7'>
+              <Description
+                title='Prototyping'
+                text='From those insights I found 3 main trends. Feelings of anxiety and stress were present when their work wasn’t done. 3 out of 4 users gets less than 6 hours of sleep per day. All users had busy schedules that involved either a full-time job or school. Users had a difficult time managing their stress, due to their busy work and school schedule. I decided to create Mizu, a music meditation app that helps people de-stress with their hectic lifestyles.'
+              />
+            </div>
           </div>
-          <div className='col-12 col-md-10'>
-            <img className='placeholder' src='../../assets/Flyer/3_Placeholder.png' />
+          <div className='row'>
+            <div className='col-12 col-md-10'>
+              <img src='../../assets/Flyer/3_Placeholder.png' />
+              <div className='pic-desc'>Affinity mapping with user trends</div>
+            </div>
           </div>
           <hr/>
           <div className='col-12 section-header'>
@@ -93,7 +101,7 @@ export default class Mizu extends React.PureComponent {
                 text='During the run, audio cues from the Nike+ Running app will help guide her along the route. The goal was to capture a five second video as she runs past the kiosk camera.'
               />
             </div>
-            <div className='col-12 col-md-2 offset-md-1'>
+            <div className='col-8 offset-2 col-md-2 offset-md-1'>
               <img className='iphone' src='../../assets/Mizu/4_iPhone.gif' />
             </div>
           </div>
@@ -104,7 +112,7 @@ export default class Mizu extends React.PureComponent {
                 text='Tapping on the red icons reveal where bad form has occurred. This provides quick access to the video clips and the runner can see exactly which parts of their form and run can be improved.'
               />
             </div>
-            <div className='col-12 col-md-2 offset-md-1'>
+            <div className='col-8 offset-2 col-md-2 offset-md-1'>
               <img className='iphone' src='../../assets/Mizu/5_iPhone.gif' />
             </div>
           </div>
@@ -115,7 +123,7 @@ export default class Mizu extends React.PureComponent {
                 text='In addition to the LinkNYC video clips, Nike will provided suggested training videos from their elite runners. The goal is to correct their running form by targeting problem areas.'
               />
             </div>
-            <div className='col-12 col-md-2 offset-md-1'>
+            <div className='col-8 offset-2 col-md-2 offset-md-1'>
               <img className='iphone' src='../../assets/Mizu/6_iPhone.gif' />
             </div>
           </div>

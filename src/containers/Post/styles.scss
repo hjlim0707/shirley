@@ -13,6 +13,7 @@
   .product-detail-content {
     padding: 0 1em;
   }
+
   img {
     width: 100%;
   }
@@ -22,22 +23,8 @@
     color: #9b9b9b;
   }
 
-  img.journey {
-    margin-bottom: 0.75em;
-  }
-
-  img.placeholder {
-    margin-top: 0.75em;
-  }
-
   hr {
     border-color: black;
-  }
-
-  hr.mobile {
-    @media(min-width: 768px) {
-      display: none;
-    }
   }
 
   .section-header {

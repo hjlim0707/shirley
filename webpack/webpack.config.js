@@ -32,8 +32,19 @@ module.exports = {
           { loader: "sass-loader" }
         ]})
       }, {
-        test: /\.(png|jpg|jpeg|gif|woff|woff2|eot|ttf|svg|otf|tif)$/,
-        loader: 'url-loader?limit=100000'
+        test: /\.(png|jpg|jpeg|gif|woff|woff2|eot|ttf|svg|otf)$/,
+        loader: 'url-loader'
+      }, {
+        test: /\.(tif|tiff)$/i,
+        use: [
+          'file-loader',
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true,
+            },
+          },
+        ],
       }
     ]
   },

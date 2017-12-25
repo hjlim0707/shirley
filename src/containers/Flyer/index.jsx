@@ -5,8 +5,6 @@ import DetailHeader from '../../components/detail_header';
 import Description from '../../components/description';
 import DetailFooter from '../../components/detail_footer';
 
-import Styles from './styles.scss';
-
 export default class Flyer extends React.PureComponent {
   componentDidMount() {
     const headerHeight = document.querySelector('.detail-header').offsetHeight;

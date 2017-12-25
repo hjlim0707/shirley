@@ -1,14 +1,11 @@
-@font-face {
-  font-family: 'akdidenz-bold';
-  src: url('../../fonts/AkzidenzGrotesk-BoldExtended.otf');
+img.iphone {
+  margin: 2em 0;
 }
 
-.product-detail-container {
-  img.iphone {
-    @media(min-width: 768px) {
-      max-height: 400px;
-      max-width: auto;
-    }
-    margin-bottom: 2.5em;
-  }
+img.nike-white {
+  margin: 3em 0;
+}
+
+img.nike-action {
+  margin: 2em 0;
 }
