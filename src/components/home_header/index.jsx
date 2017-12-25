@@ -54,7 +54,7 @@ export default class HomeHeader extends React.PureComponent {
           <div className='ctas col-12 col-lg-4 col-xl-3'>
             <Link text='Email' href='mailto:huongshirley@gmail.com'/>
             <Link text='Resume' href='../../assets/Shirley_Huong_Resume.pdf' />
-            <Link text='IG' href='http://www.instagram.com'/>
+            <Link text='IG' href='http://www.instagram.com/shirleyisfishing'/>
           </div>
         </div>
       </div>
