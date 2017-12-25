@@ -17,17 +17,17 @@ export default class ProductCaseSection extends React.PureComponent {
   };
 
   hover = (e) => {
-    if (e.target.id === 'post' ) {
+    if (e.target.id === 'post' || e.target.classList.contains('post')) {
       document.querySelector('.pp-icon').setAttribute('src', '../../assets/White_pp_logo_text.svg');
-    } else if (e.target.id === 'nike') {
+    } else if (e.target.id === 'nike' || e.target.classList.contains('nike')) {
       document.querySelector('.nike-icon').setAttribute('src', '../../assets/White_Nike_Logo.svg');
     }
   }
 
   unhover = (e) => {
-    if (e.target.id === 'post' ) {
+    if (e.target.id === 'post' || e.target.classList.contains('post')) {
       document.querySelector('.pp-icon').setAttribute('src', '../../assets/pp_logo_text.svg');
-    } else if (e.target.id === 'nike') {
+    } else if (e.target.id === 'nike' || e.target.classList.contains('nike')) {
       document.querySelector('.nike-icon').setAttribute('src', '../../assets/Nike_Logo.svg');
     }
   }
@@ -49,21 +49,21 @@ export default class ProductCaseSection extends React.PureComponent {
   render() {
     return (
       <div className='product-case-section' id={this.props.id} onMouseOver={this.hover} onMouseLeave={this.unhover}>
-        <div className='col-md-8 offset-md-2'>
-          <Link className='product-case-link' to={`/product/${this.props.title}`}>
+        <Link className={`product-case-link ${this.props.id}`} to={`/product/${this.props.title}`}>
+          <div className={`col-md-8 offset-md-2 ${this.props.id}`}>
             {this.renderPPIcon()}
-            <span className='product-case-title'>
+            <span className={`product-case-title ${this.props.id}`}>
               {this.props.title}
             </span>
-            <span className='horizontal-line'>
+            <span className={`horizontal-line ${this.props.id}`}>
               &mdash;
             </span>
             {this.renderNikeIcon()}
-            <span className='product-case-description'>
+            <span className={`product-case-description ${this.props.id}`}>
               {this.props.description}
             </span>
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
     )
   }

@@ -17,13 +17,13 @@ export default class GDCaseSection extends React.PureComponent {
   };
 
   hover = (e) => {
-    if (e.target.id === 'chi' ) {
+    if (e.target.id === 'chi' || e.target.classList.contains('chi')) {
       document.querySelector('.chi-icon').setAttribute('src', '../../assets/White_YingYang.svg');
     }
   }
 
   unhover = (e) => {
-    if (e.target.id === 'chi' ) {
+    if (e.target.id === 'chi' || e.target.classList.contains('chi')) {
       document.querySelector('.chi-icon').setAttribute('src', '../../assets/YingYang.svg');
     }
   }
@@ -38,20 +38,20 @@ export default class GDCaseSection extends React.PureComponent {
   render() {
     return (
       <div className='gd-case-section' id={this.props.id} onMouseOver={this.hover} onMouseLeave={this.unhover}>
-        <div className='col-md-8 offset-md-2'>
-          <Link className='gd-case-link' to={`/gd/${this.props.title}`}>
-            <span className='gd-case-title'>
+        <Link className={`gd-case-link ${this.props.id}`} to={`/gd/${this.props.title}`}>
+          <div className={`col-md-8 offset-md-2 ${this.props.id}`}>
+            <span className={`gd-case-title ${this.props.id}`}>
               {this.props.title}
             </span>
             {this.renderChiIcon()}
-            <span className='horizontal-line'>
+            <span className={`horizontal-line ${this.props.id}`}>
               &mdash;
             </span>
-            <span className='gd-case-description'>
+            <span className={`gd-case-description ${this.props.id}`}>
               {this.props.description}
             </span>
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
     )
   }

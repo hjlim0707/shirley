@@ -21,11 +21,17 @@
     text-transform: uppercase;
     font-size: 3vw;
     @media(max-width: 768px) {
-      font-size: 4.25vw;
+      font-size: 6vw;
     }
   }
   .right-cta {
-    text-align: right;
+    @media(min-width: 768px) {
+      text-align: right;
+    }
+    @media(max-width: 768px) {
+      margin-top: 1em;
+      margin-bottom: 1.5em;
+    }
   }
   .cta {
     font-family: 'perpetua';

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactPlayer from 'react-player';
 
 import DetailHeader from '../../components/detail_header';
 import Description from '../../components/description';
@@ -41,12 +42,16 @@ export default class LinkNYC extends React.PureComponent {
                 <Description
                   title='Credit'
                   text="Instructors — Willy Wong, J. Tang
-    Instructors — Hoshi Ludwig
-    Animator — Kurt Rauffer"
+Instructors — Hoshi Ludwig
+Animator — Kurt Rauffer"
                 />
               </div>
             </div>
-            <iframe allowFullScreen frameborder="0" height="564" mozallowfullscreen src="https://player.vimeo.com/video/ 158869479" webkitAllowFullScreen width="640"></iframe>
+            <div className='row'>
+              <div className='col-12 col-md-6'>
+                <ReactPlayer url='https://player.vimeo.com/video/158869479' width='100%'/>
+              </div>
+            </div>
             <div className='row'>
               <div className='col-12 col-md-7'>
                 <Description

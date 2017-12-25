@@ -15,10 +15,10 @@ export default class DetailHeader extends React.PureComponent {
     return (
       <div className='detail-header container-fluid'>
         <div className='row'>
-          <div className='col-10 col-md-11 title'>
+          <div className='col-12 col-md-11 title'>
             {this.props.title}
           </div>
-          <div className='col-2 col-md-1 right-cta'>
+          <div className='col-1 right-cta'>
             <Link text='Work' href='/'/>
           </div>
         </div>

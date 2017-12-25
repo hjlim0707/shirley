@@ -9,8 +9,10 @@
 }
 
 .description {
-  padding: 2em 0;
-
+  @media(min-width: 768px) {
+    padding: 2em 0;
+  }
+  padding: 1em 0;
   .description-title {
     font-family: 'akdidenz-bold';
     font-size: 1.25em;

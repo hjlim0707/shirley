@@ -15,36 +15,38 @@ export default class FloatingChain extends React.PureComponent {
     return (
       <div className='product-detail-container'>
         <DetailHeader title='Floating Chain' />
-        <div className='first-row row'>
-          <div className='col-6'>
-            <Description
-              title='The Project'
-              text="Floating Chain is Jonah Freeman and Justin Lowe's latest exhibition at Marlborough Chelsea Gallery. Both have created a whole new world: half labyrinth, half initiative path. The exhibition encapsulates different times inspired from the 60's, 70's and spaces, some intertwined. A plastic bag designed to be a utilitarian item captures the very essence of the duo's personality."
-            />
-          </div>
-          <div className='col-6'>
-            <Description
-              title='My Role'
-              text='Designer'
-            />
-            <Description
-              title='Time'
-              text='03/2015'
-            />
-            <Description
-              title='Credit'
-              text='Instructors — Nic Taylor, Brett Kilroe'
-            />
-          </div>
-        </div>
-        <div className='row'>
-          <div className='col-12'>
-            <img className='tnn' src='../../assets/FloatingChain/1_bag.jpg'/>
-            <img className='tnn' src='../../assets/FloatingChain/2_bag.jpg'/>
-            <img className='tnn' src='../../assets/FloatingChain/3_model.jpg'/>
-            <img className='tnn' src='../../assets/FloatingChain/4_model.jpg'/>
-            <img className='tnn' src='../../assets/FloatingChain/5_PlasticBag.gif'/>
-          </div>
+          <div className='product-detail-content'>
+            <div className='first-row row'>
+              <div className='col-12 col-md-6'>
+                <Description
+                  title='The Project'
+                  text="Floating Chain is Jonah Freeman and Justin Lowe's latest exhibition at Marlborough Chelsea Gallery. Both have created a whole new world: half labyrinth, half initiative path. The exhibition encapsulates different times inspired from the 60's, 70's and spaces, some intertwined. A plastic bag designed to be a utilitarian item captures the very essence of the duo's personality."
+                />
+              </div>
+              <div className='col-12 col-md-6'>
+                <Description
+                  title='My Role'
+                  text='Designer'
+                />
+                <Description
+                  title='Time'
+                  text='03/2015'
+                />
+                <Description
+                  title='Credit'
+                  text='Instructors — Nic Taylor, Brett Kilroe'
+                />
+              </div>
+            </div>
+            <div className='row'>
+              <div className='col-12 col-md-9'>
+                <img className='gd' src='../../assets/FloatingChain/1_bag.jpg'/>
+                <img className='gd' src='../../assets/FloatingChain/2_bag.jpg'/>
+                <img className='gd' src='../../assets/FloatingChain/3_model.jpg'/>
+                <img className='gd' src='../../assets/FloatingChain/4_model.jpg'/>
+                <img className='gd' src='../../assets/FloatingChain/5_PlasticBag.gif'/>
+              </div>
+            </div>
         </div>
         <DetailFooter prev={{text: 'Standard', href: 'standard'}} next={{text: 'Paperless Post', href: '/product/post'}}/>
       </div>

@@ -31,16 +31,19 @@ export default class HomeHeader extends React.PureComponent {
     window.scrollTo(0,0);
   }
 
-  handleScroll = () => {
-    window.pageYOffset === 0 ? this.setState({ leftContent: 'full' }) : this.setState({ leftContent: 'condensed' });
+  setHeaderOffset() {
     const headerHeight = document.querySelector('.home-header').offsetHeight;
     document.querySelector('#post').style['marginTop'] = `${headerHeight}px`;
   }
 
+  handleScroll = () => {
+    window.pageYOffset === 0 ? this.setState({ leftContent: 'full' }) : this.setState({ leftContent: 'condensed' });
+    this.setHeaderOffset();
+  }
+
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
-    const headerHeight = document.querySelector('.home-header').offsetHeight;
-    document.querySelector('#post').style['marginTop'] =`${headerHeight}px`;
+    this.setHeaderOffset();
   }
 
   render() {

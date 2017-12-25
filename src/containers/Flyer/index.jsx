@@ -44,8 +44,8 @@ export default class Flyer extends React.PureComponent {
               <Description
                 title='Credit'
                 text="Co Product Designer — Eli Showalter
-  Brand Designer — Ray Masaki
-  Content Designer — Norah Stone"
+Brand Designer — Ray Masaki
+Content Designer — Norah Stone"
               />
             </div>
           </div>
