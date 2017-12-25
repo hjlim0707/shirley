@@ -5,11 +5,10 @@
 
 .product-detail-container {
   img.iphone {
-    max-height: 400px;
+    @media(min-width: 768px) {
+      max-height: 400px;
+      max-width: auto;
+    }
     margin-bottom: 2.5em;
-  }
-
-  img.placeholder {
-    margin-top: 0.75em;
   }
 }
