@@ -142,6 +142,7 @@ Content Designer - Robyn Ng"
                 text='Adding filters improve the browsing experience by helping our customers narrow down their choices before they make a decision. A common behavior is a tendency to alter the cards list. By placing the sort by and filtering in one modal, this makes it easier and more accesible for our customers to find it all in one place. We placed the free and photo filters on the grid view of cards since it ranked high in popularity amongst our customers.'
               />
               <Description
+                className='last'
                 title='Share and Favorites'
                 text="Since customize and create isn’t available on mobile web, users can email themselves the designs to continue on desktop. They can also share the card with their friends and family via SMS, Pinterest, Facebook or copy the link.
 <br/>We want to help our users to feel confident with our brand and have fun while choosing their cards. In the previous experience, if our customer isn’t signed up or logged in, we block them from favoriting at all. The new experience allows them to favorite up to three cards, and we nudge them to sign in or up to bookmark their favorites. This helps find cards easily in the next session and their decision making."

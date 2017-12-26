@@ -48,7 +48,7 @@ export default class HomeHeader extends React.PureComponent {
 
   render() {
     return (
-      <div className='home-header container-fluid'>
+      <div className={`home-header container-fluid ${this.state.leftContent}`}>
         <div className='row'>
           {this.leftContent()}
           <div className='ctas col-12 col-lg-4 col-xl-3'>

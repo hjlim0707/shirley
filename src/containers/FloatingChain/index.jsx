@@ -44,7 +44,7 @@ export default class FloatingChain extends React.PureComponent {
                 <img className='gd' src='../../assets/FloatingChain/2_bag.jpg'/>
                 <img className='gd' src='../../assets/FloatingChain/3_model.jpg'/>
                 <img className='gd' src='../../assets/FloatingChain/4_model.jpg'/>
-                <img className='gd' src='../../assets/FloatingChain/5_PlasticBag.gif'/>
+                <img className='gd last' src='../../assets/FloatingChain/5_PlasticBag.gif'/>
               </div>
             </div>
         </div>

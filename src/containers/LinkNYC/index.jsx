@@ -164,7 +164,7 @@ After the session, the runner can review their biometrics in the Nike+ Running a
                 <img className='nike-action' src='../../assets/LinkNYC/11_FootGroundContact.gif'/>
               </div>
             </div>
-            <div className='row'>
+            <div className='row last'>
               <div className='col-12 col-md-5'>
                 <img className='nike-action' src='../../assets/LinkNYC/12_Cadence.gif'/>
               </div>

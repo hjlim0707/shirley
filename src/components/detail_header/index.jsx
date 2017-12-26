@@ -11,6 +11,16 @@ export default class DetailHeader extends React.PureComponent {
     title: PropTypes.string.isRequired,
   }
 
+  handleScroll = () => {
+    return window.pageYOffset === 0 ?
+      document.querySelector('.detail-header .title').style.fontSize = '3vw' :
+      document.querySelector('.detail-header .title').style.fontSize = '2vw';
+  };
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
   render() {
     return (
       <div className='detail-header container-fluid'>

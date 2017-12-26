@@ -5,8 +5,6 @@ import DetailHeader from '../../components/detail_header';
 import Description from '../../components/description';
 import DetailFooter from '../../components/detail_footer';
 
-import Styles from './styles.scss';
-
 export default class Mizu extends React.PureComponent {
   componentDidMount() {
     const headerHeight = document.querySelector('.detail-header').offsetHeight;
@@ -123,7 +121,7 @@ export default class Mizu extends React.PureComponent {
                 text='In addition to the LinkNYC video clips, Nike will provided suggested training videos from their elite runners. The goal is to correct their running form by targeting problem areas.'
               />
             </div>
-            <div className='col-8 offset-2 col-md-2 offset-md-1'>
+            <div className='col-8 offset-2 col-md-2 offset-md-1 last'>
               <img className='iphone' src='../../assets/Mizu/6_iPhone.gif' />
             </div>
           </div>

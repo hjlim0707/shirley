@@ -54,7 +54,7 @@ export default class TuftAndNeedle extends React.PureComponent {
               <img className='gd' src='../../assets/TuftAndNeedle/10_Design.jpg'/>
               <img className='gd' src='../../assets/TuftAndNeedle/11_Design.jpg'/>
               <img className='gd' src='../../assets/TuftAndNeedle/12_Design.jpg'/>
-              <img className='gd' src='../../assets/TuftAndNeedle/13_Design.jpg'/>
+              <img className='gd last' src='../../assets/TuftAndNeedle/13_Design.jpg'/>
             </div>
           </div>
         </div>

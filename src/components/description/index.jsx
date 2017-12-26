@@ -34,7 +34,7 @@ export default class Description extends React.PureComponent {
 
   render() {
     return (
-      <div className='description'>
+      <div className={`description ${this.props.className ? this.props.className : ''}`}>
         <div className='description-title'>
           {this.props.title}
         </div>

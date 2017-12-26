@@ -23,6 +23,12 @@
     @media(min-width: 960px) {
       font-size: 3vw;
     }
+    a {
+      border-bottom: none;
+    }
+    a::after {
+      content: none;
+    }
   }
 
   .right-cta {

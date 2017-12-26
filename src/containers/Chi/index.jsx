@@ -50,7 +50,7 @@ export default class Chi extends React.PureComponent {
               <img className='gd' src='../../assets/Chi/8_Spread.jpg'/>
               <img className='gd' src='../../assets/Chi/9_Spread.jpg'/>
               <img className='gd' src='../../assets/Chi/10_Spread.jpg'/>
-              <img className='gd' src='../../assets/Chi/11_Spread.jpg'/>
+              <img className='gd last' src='../../assets/Chi/11_Spread.jpg'/>
             </div>
           </div>
         </div>

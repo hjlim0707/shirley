@@ -47,7 +47,7 @@ export default class Standard extends React.PureComponent {
                 <img className='gd' src='../../assets/NSC/5_Totes.jpg'/>
                 <img className='gd' src='../../assets/NSC/6_Totes.jpg'/>
                 <img className='gd' src='../../assets/NSC/7_Totes.jpg'/>
-                <img className='gd' src='../../assets/NSC/8_Totes.jpg'/>
+                <img className='gd last' src='../../assets/NSC/8_Totes.jpg'/>
               </div>
             </div>
           </div>

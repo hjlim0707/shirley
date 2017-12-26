@@ -10,7 +10,6 @@
 
 .product-case-section {
   text-transform: uppercase;
-  text-align: center;
   background-color: #fff4e1;
   width: 100%;
   border-bottom: 1px solid black;
@@ -33,8 +32,13 @@
     padding-right: 10px;
   }
   .pp-icon{
-    max-height: 4em;
+    position: relative;
+    top: -10px;
     max-width: 10em;
+    @media(max-width: 768px) {
+      top: -2px;
+      max-width: 6em;
+    }
   }
   .nike-icon {
     max-height: 3em;
@@ -48,7 +52,7 @@
 
   .product-case-title {
     font-family: 'akdidenz-bold';
-    font-size: 3vw;
+    font-size: 2.92vw;
     @media(max-width: 768px) {
       font-size: 4.25vw;
     }
@@ -57,12 +61,12 @@
   .horizontal-line {
     font-size: 3vw;
     font-weight: 100;
-    padding: 0px 10px 30px;
+    padding: 0px 10px 25px;
   }
 
   .product-case-description {
     font-family: 'perpetua';
-    font-size: 2.75vw;
+    font-size: 2.78vw;
     color: black;
     @media(max-width: 768px) {
       font-size: 4vw;

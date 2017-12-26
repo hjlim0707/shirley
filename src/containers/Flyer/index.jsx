@@ -127,6 +127,7 @@ Content Designer — Norah Stone"
             </div>
             <div className='col-12 col-md-7'>
               <Description
+                className='last'
                 title='Preview and Send'
                 text='The final steps are to preview and send out the Flyer. The organizer sees how the event page and poll would look like, and has the option to make any changes before sending it out.
 <br/>Since the guests may not all have the Flyer app on their phone, they will receive an SMS with a URL linking to a chat that gives them the option to vote. To ensure continued interaction, guests are prompted to download the app for more features on Flyer.'
