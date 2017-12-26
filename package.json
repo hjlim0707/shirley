@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/mindyyuan/shirley.git"
   },
+  "engines": {
+    "node": "6.2.2"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
