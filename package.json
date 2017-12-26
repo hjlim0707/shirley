@@ -4,7 +4,8 @@
   "description": "portfolio website",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack/webpack.config.local.js --hot --inline",
+    "dev": "webpack-dev-server --config ./webpack/webpack.config.local.js --hot --inline",
+    "start": "npm install && npm run build",
     "build": "webpack --config ./webpack/webpack.config.prod.js",
     "test": "test"
   },
@@ -43,7 +44,6 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
     "url-loader": "^0.6.2",
-    "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
@@ -60,6 +60,7 @@
     "react-player": "^0.25.3",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
+    "webpack": "^3.8.1",
     "webpack-bundle-tracker": "^0.2.0"
   },
   "author": "Mindy Yuan",
