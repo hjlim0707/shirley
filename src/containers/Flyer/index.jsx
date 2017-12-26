@@ -95,9 +95,11 @@ Content Designer — Norah Stone"
 
   This version had a minimal and clean UI, but it wasn’t intuitive enough for our organizers. This feature lacked instructions and caused confusion. It was an interesting challenge balancing the interaction, language and typography.'
               />
-              <div className='col-12 col-md-10'>
-                <img src='../../assets/Flyer/3_Placeholder.png' />
-              </div>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-12 col-md-10'>
+              <img src='../../assets/Flyer/3_Flyer.png' />
             </div>
           </div>
           <hr/>

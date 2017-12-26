@@ -72,7 +72,7 @@ export default class Mizu extends React.PureComponent {
           </div>
           <div className='row'>
             <div className='col-12 col-md-10'>
-              <img src='../../assets/Mizu/2_placeholder.png' height='400px'/>
+              <img src='../../assets/Mizu/2_Mizu.png'/>
               <div className='pic-desc'>Affinity mapping with user trends</div>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default class Mizu extends React.PureComponent {
           </div>
           <div className='row'>
             <div className='col-12 col-md-10'>
-              <img src='../../assets/Flyer/3_Placeholder.png' />
+              <img src='../../assets/Mizu/3_Mizu.png' />
               <div className='pic-desc'>Affinity mapping with user trends</div>
             </div>
           </div>

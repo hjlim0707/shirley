@@ -78,7 +78,7 @@ Animator — Kurt Rauffer"
             </div>
             <div className='row'>
               <div className='col-12 col-md-10'>
-                <img src='../../assets/LinkNYC/2_Placeholder.png'/>
+                <img src='../../assets/LinkNYC/2_Nike.png'/>
                 <div className='pic-desc'>Wireframes for the first version of Nike+Running app.</div>
               </div>
             </div>
@@ -90,7 +90,7 @@ Animator — Kurt Rauffer"
               <div className='col-12 col-md-6'>
                 <Description
                   title='LinkNYC'
-                  text='By partnering with LinkNYC’s network of connected kiosks, correcting form is as simple as going out for a run. When a runner approaches participating Links outside of an NYC Nike Store, they can allow Circuit to track their device wirelessly with the Nike+ running app. Verification only takes 3 steps and will send a route to the mobile device.
+                  text='By partnering with LinkNYC’s network of connected kiosks, correcting form is as simple as going out for a run. When a runner approaches participating Links outside of an NYC Nike Store, they can allow Circuit to track their device wirelessly with the Nike+ running app. Verification only takes 3 steps and will send a route to the mobile device.<br/>
   <br/>Routes are selected based on Link locations and proximity to runner. It will then print out a temporary sensor tattoo to track her biometrics.'
                 />
               </div>
@@ -98,9 +98,11 @@ Animator — Kurt Rauffer"
                 <img className='iphone' src='../../assets/LinkNYC/3_Kiosk.gif' />
               </div>
             </div>
-            <div className='col-12 col-md-9'>
-              <img className='placeholder' src='../../assets/LinkNYC/4_Tattoo.tif' />
-              <div className='pic-desc'>Runner will place the circuit temporary sensor tattoo on their body to track their biometrics.</div>
+            <div className='row'>
+              <div className='col-12 col-md-9'>
+                <img className='placeholder' src='../../assets/LinkNYC/4_Tattoo.png' />
+                <div className='pic-desc'>Runner will place the circuit temporary sensor tattoo on their body to track their biometrics.</div>
+              </div>
             </div>
             <hr/>
             <div className='col-12 section-header'>
@@ -110,9 +112,8 @@ Animator — Kurt Rauffer"
               <div className='col-12 col-md-6'>
                 <Description
                   title='Post-Run'
-                  text='During the run, audio cues from the Nike+ Running app will help guide her along the route. The goal was to capture a five second video as she runs past the kiosk camera.
-
-    After the session, the runner can review their biometrics in the Nike+ Running app. By prioritizing the biometrics, the runner can focus on data relevant to them. (Ground contact, bounce & cadence)'
+                  text='During the run, audio cues from the Nike+ Running app will help guide her along the route. The goal was to capture a five second video as she runs past the kiosk camera.<br/>
+After the session, the runner can review their biometrics in the Nike+ Running app. By prioritizing the biometrics, the runner can focus on data relevant to them. (Ground contact, bounce & cadence)'
                 />
               </div>
               <div className='col-8 offset-2 col-md-2 offset-md-1'>
@@ -149,7 +150,7 @@ Animator — Kurt Rauffer"
               <div className='col-12 col-md-6'>
                 <Description
                   title='Visual Designs'
-                  text='I wanted to tell the story of Nike+ through the use of original and bold graphics. The idea stemmed from the concept of a battery. The logo nods to the physical product while representing a surge of energy.
+                  text='I wanted to tell the story of Nike+ through the use of original and bold graphics. The idea stemmed from the concept of a battery. The logo nods to the physical product while representing a surge of energy.<br/>
   <br/>The icons are inspired by the running, being simple and to remain elegant over time. The same tone and language was applied to the graphics in the video as well. Using bold and understated colors speak to the brand.'
                 />
               </div>
