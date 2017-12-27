@@ -1,14 +1,10 @@
-const path = require('path')
+var express = require('express');
+var path = require('path');
+var app = express();
 
-module.exports = {
-  app: function () {
-    const app = express();
-    const indexPath = path.join(__dirname, '../dist/index.html')
-    // const publicPath = express.static(path.join(__dirname, '../public'))
+app.use(express.static(__dirname + '/dist'));
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname + '/dist/index.html'));
+  });
 
-    // app.use('/public', publicPath)
-    app.get('/', function (_, res) { res.sendFile(indexPath) })
-
-    return app;
-  }
-}
+app.listen(process.env.PORT || 3000);
