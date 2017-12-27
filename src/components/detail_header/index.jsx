@@ -12,9 +12,19 @@ export default class DetailHeader extends React.PureComponent {
   }
 
   handleScroll = () => {
-    return window.pageYOffset === 0 ?
-      document.querySelector('.detail-header .title').style.fontSize = '3vw' :
-      document.querySelector('.detail-header .title').style.fontSize = '2vw';
+    if (window.pageYOffset === 0) {
+      if (window.innerWidth > 768) {
+        document.querySelector('.detail-header .title').style.fontSize = '3vw'
+      } else {
+        document.querySelector('.detail-header .title').style.fontSize = '6vw';
+      }
+    } else {
+      if (window.innerWidth > 768) {
+        document.querySelector('.detail-header .title').style.fontSize = '2vw'
+      } else {
+        document.querySelector('.detail-header .title').style.fontSize = '4vw';
+      }
+    }
   };
 
   componentDidMount() {
