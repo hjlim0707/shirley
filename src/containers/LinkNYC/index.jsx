@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactPlayer from 'react-player';
 
 import DetailHeader from '../../components/detail_header';
 import Description from '../../components/description';
@@ -48,8 +47,8 @@ Animator — Kurt Rauffer"
               </div>
             </div>
             <div className='row'>
-              <div className='col-12 col-md-6'>
-                <ReactPlayer url='https://player.vimeo.com/video/158869479' width='100%'/>
+              <div className='col-12 col-md-10'>
+              <iframe frameborder="0" width="100%" height="564" src="https://player.vimeo.com/video/158869479"></iframe>
               </div>
             </div>
             <div className='row'>
