@@ -8,7 +8,9 @@ const config = Object.assign(base, {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': '"production"'
     }),
-    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.UglifyJsPlugin({compress: {
+        warnings: false
+    }}),
     ...plugins
   ]
 });
