@@ -13,15 +13,12 @@ export default class HomeHeader extends React.PureComponent {
 
   leftContent() {
     return this.state.leftContent === 'full' ? (
-      <div className='header-description col-12 col-lg-8 col-xl-9'>
-        <a className='name' onClick={this.onClick}>Shirley Huong </a>
-        is a product designer based in <br/>
-        Brooklyn, NYC. She currently works at <br/>
-        <Link text='Paperless Post' href='https://www.paperlesspost.com' />,
+      <div className='header-description col-12 col-md-5'>
+        <a className='name' onClick={this.onClick}>Shirley Huong </a> is a product designer based in Brooklyn, NYC. She currently works at <Link text='Paperless Post' href='https://www.paperlesspost.com' />,
         focusing on Mobile Products.
       </div>
     ) : (
-      <div className='header-description col-12 col-lg-8 col-xl-9'>
+      <div className='header-description col-12 col-md-8'>
         <a className='name' onClick={this.onClick}>Shirley Huong</a>
       </div>
     )
@@ -51,7 +48,7 @@ export default class HomeHeader extends React.PureComponent {
       <div className={`home-header container-fluid ${this.state.leftContent}`}>
         <div className='row'>
           {this.leftContent()}
-          <div className='ctas col-12 col-lg-4 col-xl-3'>
+          <div className={`ctas col-12 col-md-4 ${this.state.leftContent === 'full' ? 'offset-md-3' : null}`}>
             <Link text='Email' href='mailto:huongshirley@gmail.com'/>
             <Link text='Resume' href='../../assets/Shirley_Huong_Resume.pdf' />
             <Link text='IG' href='http://www.instagram.com/shirleyisfishing'/>
