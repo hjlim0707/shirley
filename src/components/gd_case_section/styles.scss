@@ -13,7 +13,10 @@
   background-color: #f9f9f9;
   width: 100%;
   border-bottom: 1px solid black;
-  padding: 50px 0;
+  padding: 48px 0;
+  @media(max-width: 768px) {
+    padding: 24px 0;
+  }
 
   &:hover {
     background-color: black;
@@ -31,10 +34,14 @@
 
   img {
     position: relative;
-    bottom: 8px;
+    bottom: 12px;
     margin-left: 7px;
     padding-right: 7px;
-    width: 3em;
+    width: 38px;
+    @media(max-width: 768px) {
+      top: -2px;
+      width: 24px;
+    }
   }
 
   .gd-case-link {
@@ -44,7 +51,7 @@
 
   .gd-case-title {
     font-family: 'akdidenz-bold';
-    font-size: 3vw;
+    font-size: 2.92vw;
     @media(max-width: 768px) {
       font-size: 4.25vw;
     }
@@ -58,9 +65,9 @@
 
   .gd-case-description {
     font-family: 'perpetua';
-    font-size: 2.75vw;
+    font-size: 2.92vw;
     @media(max-width: 768px) {
-      font-size: 4vw;
+      font-size: 4.5vw;
     }
   }
 }

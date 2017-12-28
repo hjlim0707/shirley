@@ -13,7 +13,10 @@
   background-color: #fff4e1;
   width: 100%;
   border-bottom: 1px solid black;
-  padding: 50px 0;
+  @media(max-width: 768px) {
+    padding: 24px 0;
+  }
+  padding: 48px 0;
   &:hover {
     background-color: black;
   }
@@ -41,8 +44,13 @@
     }
   }
   .nike-icon {
-    max-height: 3em;
-    max-width: 5em;
+    position: relative;
+    top: -7px;
+    max-width: 5.4em;
+    @media(max-width: 768px) {
+      top: -2px;
+      max-width: 2.5em;
+    }
   }
 
   .product-case-link {
@@ -66,10 +74,10 @@
 
   .product-case-description {
     font-family: 'perpetua';
-    font-size: 2.78vw;
+    font-size: 2.92vw;
     color: black;
     @media(max-width: 768px) {
-      font-size: 4vw;
+      font-size: 4.5vw;
     }
   }
 }
