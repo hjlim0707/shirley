@@ -2,7 +2,6 @@
   display: inline-block;
   text-decoration: none;
   color: black;
-  border-bottom: 1px solid black;
 
   &:hover {
     color: black;
@@ -11,14 +10,18 @@
   }
   &::after {
       content: '';
-      margin-bottom: -1px;
+      border: 0.5px solid black;
       display: block;
-      width: 0;
+      width: 100%;
       height: 1px;
       background: #000;
-      transition: width 1s;
+      transform: scaleX(1);
+      transition: transform 0.3s ease-in-out;
+      transform-origin: 0% 50%;
   }
-  &:hover::after {
-      width: 100%;
+  &:hover::after, &:focus::after, &:active::after {
+    transform: scaleX(0);
+    transform-origin: 100% 50% 0;
+    width: 100%;
   }
 }
