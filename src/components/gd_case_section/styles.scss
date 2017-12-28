@@ -14,8 +14,12 @@
   width: 100%;
   border-bottom: 1px solid black;
   padding: 48px 0;
+  @media(min-width: 769px) {
+    line-height: 1.19;
+  }
   @media(max-width: 768px) {
     padding: 24px 0;
+    line-height: 1.11;
   }
 
   &:hover {
@@ -51,7 +55,7 @@
 
   .gd-case-title {
     font-family: 'akdidenz-bold';
-    font-size: 2.92vw;
+    font-size: 42px;
     @media(max-width: 768px) {
       font-size: 4.25vw;
     }
@@ -60,14 +64,14 @@
   .horizontal-line {
     font-size: 3vw;
     font-weight: 100;
-    padding: 0px 10px 30px;
+    padding: 0px 10px;
   }
 
   .gd-case-description {
     font-family: 'perpetua';
-    font-size: 2.92vw;
+    font-size: 40px;
     @media(max-width: 768px) {
-      font-size: 4.5vw;
+      font-size: 16px;
     }
   }
 }

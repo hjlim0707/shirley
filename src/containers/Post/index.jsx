@@ -19,9 +19,10 @@ export default class Post extends React.PureComponent {
         <DetailHeader title='Mobile Web Revamp' />
         <div className='product-detail-content'>
           <div className='first-row row'>
-            <div className='col-12 col-md-6'>
+            <div className='first-col col-12 col-md-6'>
               <Description
                 title='The Product'
+                className='top'
                 text='Paperless Post is a dynamic platform that helps users
                 and their guests gather meaningfully in real life, through beautifully
                 designed invites and online event management tools.'
@@ -36,14 +37,15 @@ export default class Post extends React.PureComponent {
               />
               <Description
                 title='Users'
+                className={window.innerWidth > 768 ? 'before-pic' : ''}
                 text='Our targeted audiences are mobile users coming in through all channels:
                 receiver experience, marketing e-mails, DTI and SEO.'
               />
             </div>
-            <hr className='mobile' />
             <div className='col-12 col-md-6'>
               <Description
                 title='My Role'
+                className={window.innerWidth > 767 ? 'top' : ''}
                 text='Product Designer, Visual Designer'
               />
               <Description
@@ -52,6 +54,7 @@ export default class Post extends React.PureComponent {
               />
               <Description
                 title='Credit'
+                className={window.innerWidth < 768 ? 'before-pic' : ''}
                 text="Co PD - Marissa Christy
 Brand Designer - Luke Williams
 Content Designer - Robyn Ng"
@@ -67,6 +70,7 @@ Content Designer - Robyn Ng"
             <div className='col-12 col-md-7'>
               <Description
                 title='Background'
+                className='after-pic'
                 text='Paperless Post had a low engagement on mobile web despite a high volume of users. In
                 the past two years, mobile brought in about the same amount of traffic on desktop, but the
                 average session is about 53% lower. One big challenge is that users can only browse cards and not create on mobile web.'
@@ -96,18 +100,29 @@ Content Designer - Robyn Ng"
               />
               <Description
                 title='Previous User Flow'
+                className='before-pic'
                 text="After our initial research phase, we went through the whole user flow for the mobile web.
                 When a user lands on the Paperlesspost homepage, they’re greeted by an interstitial that takes up
                 the whole screen. Without providing any incentive we surface four CTA’s for our users to decide on.
                 It also took five steps to sign up and there was no clear direction for the next step to engage further on the site."
               />
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-12 col-md-7'>
               <img className='prev' src='../../assets/PaperlessPost/2_Previous_Exp.png'/>
+              <div className='pic-desc'>Audit of previous user flow</div>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-12 col-md-7'>
               <Description
                 title='User Journey'
+                className='before-pic after-pic'
                 text="After synthesizing our findings and patterns we mapped out an ideal user journey for audience."
               />
             </div>
-            <div className='col-12 col-md-9'>
+            <div className='col-12 col-md-9 before-border'>
               <img className='journey' src='../../assets/PaperlessPost/3_Journey_Map.png' />
             </div>
           </div>
@@ -117,7 +132,7 @@ Content Designer - Robyn Ng"
           </div>
           <div className='row'>
             <div className='col-12 col-md-10'>
-              <img className='placeholder' src='../../assets/PaperlessPost/4_Placeholder.gif' />
+              <img style={{'padding-top': '32px'}} src='../../assets/PaperlessPost/4_Placeholder.gif' />
               <div className='pic-desc'>L to R: Homepage and Paper Browser</div>
             </div>
             <div className='col-12 col-md-7'>
@@ -128,6 +143,7 @@ Content Designer - Robyn Ng"
               />
               <Description
                 title='Paper Browser'
+                className='before-pic'
                 text="The customer can either tap into a category page or access the Paper browser from the navigation. Since we offer a large selection of cards, the user has the option to browse designs or search for a particular card within that category.
 <br/>When a user taps a card, this page is important in terms of education. Below the card view the user can download the iOS app to continue to customize and send the invitation/card. The detail view also provides a preview of the card package (card, envelope, liner), and pricing."
               />
@@ -139,6 +155,7 @@ Content Designer - Robyn Ng"
             <div className='col-12 col-md-7'>
               <Description
                 title='Filter and Sort By'
+                className='after-pic'
                 text='Adding filters improve the browsing experience by helping our customers narrow down their choices before they make a decision. A common behavior is a tendency to alter the cards list. By placing the sort by and filtering in one modal, this makes it easier and more accesible for our customers to find it all in one place. We placed the free and photo filters on the grid view of cards since it ranked high in popularity amongst our customers.'
               />
               <Description

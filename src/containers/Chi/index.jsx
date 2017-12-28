@@ -20,12 +20,14 @@ export default class Chi extends React.PureComponent {
             <div className='col-12 col-md-6'>
               <Description
                 title='The Project'
+                className='top'
                 text="This mail order catalog is based on the beliefs of Feng Shui. Chi is energy. It is the constant moving life force that makes us feel good or bad in a certain environment. This energy accumulates in the objects around you. The following items will create a feng shui that will invite, excite and calm. Gift yourself with chi to assure your good health and fortune."
               />
             </div>
             <div className='col-12 col-md-6'>
               <Description
                 title='My Role'
+                className={window.innerWidth > 767 ? 'top' : ''}
                 text='Designer'
               />
               <Description
@@ -34,6 +36,7 @@ export default class Chi extends React.PureComponent {
               />
               <Description
                 title='Credit'
+                className='before-pic'
                 text='Instructor — Scott Buschkuhl'
               />
             </div>

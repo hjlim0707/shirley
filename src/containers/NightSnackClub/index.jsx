@@ -20,12 +20,14 @@ export default class NightSnackClub extends React.PureComponent {
             <div className='col-12 col-md-6'>
               <Description
                 title='The Project'
+                className='top'
                 text="My friend Hui and I are very interested in the dialogue of our heritage: being Asian American and growing up in the 90s. So we decided to combine the two into our very own RnB fortune cookies. We baked the cookies ourselves, experimenting with the batter and flavoring, and created our own fortunes to slip into the cookies. We also sourced, designed and produced our own packaging. The final product, we hope, is the highest epitome of corny cultural references in edible form."
               />
             </div>
             <div className='col-12 col-md-6'>
               <Description
                 title='My Role'
+                className={window.innerWidth > 767 ? 'top' : ''}
                 text='Designer'
               />
               <Description
@@ -34,6 +36,7 @@ export default class NightSnackClub extends React.PureComponent {
               />
               <Description
                 title='Credit'
+                className='before-pic'
                 text="Co-Designer — Hui Ou Yang"
               />
             </div>

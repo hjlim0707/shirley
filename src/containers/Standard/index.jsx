@@ -20,12 +20,14 @@ export default class Standard extends React.PureComponent {
               <div className='col-12 col-md-6'>
                 <Description
                   title='The Project'
+                  className='top'
                   text="One of the most frustrating parts of painting a room is finding the right color. Standard is my vision for a new type of paint container that aims to make that process easier. By making the container transparent, users can see the actual paint color without having to guess or paint a test patch on a wall. The triangular shape of the container allows paint to be shipped more economically."
                 />
               </div>
               <div className='col-12 col-md-6'>
                 <Description
                   title='My Role'
+                  className={window.innerWidth > 767 ? 'top' : ''}
                   text='Designer'
                 />
                 <Description
@@ -34,6 +36,7 @@ export default class Standard extends React.PureComponent {
                 />
                 <Description
                   title='Credit'
+                  className='before-pic'
                   text='Instructors — Nic Taylor, Brett Kilroe'
                 />
               </div>

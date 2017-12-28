@@ -22,12 +22,14 @@ export default class TuftAndNeedle extends React.PureComponent {
             <div className='col-12 col-md-6'>
               <Description
                 title='The Project'
+                className='top'
                 text="Tuft & Needle  is mattress company that believes sleep is an important part of life. Working closely with Grand Army,  our focus for T&N's camping trip is to create bonds with team members outside of the context of their work. It’s a time to help T&N disconnect from their jobs and the rest of the world; to recharge for the year ahead."
               />
             </div>
             <div className='col-12 col-md-6'>
               <Description
                 title='My Role'
+                className={window.innerWidth > 767 ? 'top' : ''}
                 text='Visual Designer'
               />
               <Description
@@ -36,6 +38,7 @@ export default class TuftAndNeedle extends React.PureComponent {
               />
               <Description
                 title='Credit'
+                className='before-pic'
                 text="Creative Direction — Grand Army"
               />
             </div>

@@ -20,16 +20,19 @@ export default class Mizu extends React.PureComponent {
             <div className='col-12 col-md-6'>
               <Description
                 title='The Product'
+                className='top'
                 text='I was given a week to rapid prototype a health tracker app. Ironically my current lifestyle is the complete opposite of what a healthy person should practice (potato chips for dinner and restless nights due to class projects and a part time job). This might be a sign to come to terms to a regular sleeping schedule and design an app to help other restless souls like myself.'
               />
               <Description
-                title='Initial Resesarch'
+                title='Initial Research'
+                className={window.innerWidth > 768 ? 'before-pic' : ''}
                 text='I started by researching topics and apps that revolved around health, fitness, diet, and overall well-being. After my research came the interview process.'
               />
             </div>
             <div className='col-12 col-md-6'>
               <Description
                 title='My Role'
+                className={window.innerWidth > 767 ? 'top' : ''}
                 text='Product Designer, Visual Designer'
               />
               <Description
@@ -38,6 +41,7 @@ export default class Mizu extends React.PureComponent {
               />
               <Description
                 title='Credit'
+                className={window.innerWidth < 768 ? 'before-pic' : ''}
                 text="Instructors — Rashida White"
               />
             </div>
@@ -51,6 +55,7 @@ export default class Mizu extends React.PureComponent {
             <div className='col-12 col-md-6'>
               <Description
                 title='Interviews'
+                className='after-pic'
                 text='With only a week to finish a rapid prototype, I began conducting 5 in-person interviews. They are designers either working in the industry or finishing their last semester at school with their age ranging from 21–38. After compiling my research I grouped my findings into similar affinities, motivations, and pain points.<br/>
                 <br/>Being a design student myself, I empathized with my users in their feelings of anxiety, stress, and not being fully present when interacting with people and the environment. The responses from the designers currently working were what surprised me the most. My previous assumption was that the older audience with more consistent schedules would have more free time to combat their stress levels versus the irregular schedules students had.'
               />
@@ -64,6 +69,7 @@ export default class Mizu extends React.PureComponent {
             <div className='col-12 col-md-7'>
               <Description
                 title='Affinity Mapping'
+                className='before-pic'
                 text='From those insights I found 3 main trends. Feelings of anxiety and stress were present when their work wasn’t done. 3 out of 4 users gets less than 6 hours of sleep per day. All users had busy schedules that involved either a full-time job or school. Users had a difficult time managing their stress, due to their busy work and school schedule. I decided to create Mizu, a music meditation app that helps people de-stress with their hectic lifestyles.'
               />
             </div>
@@ -78,6 +84,7 @@ export default class Mizu extends React.PureComponent {
             <div className='col-12 col-md-7'>
               <Description
                 title='Prototyping'
+                className='after-pic before-pic'
                 text='From those insights I found 3 main trends. Feelings of anxiety and stress were present when their work wasn’t done. 3 out of 4 users gets less than 6 hours of sleep per day. All users had busy schedules that involved either a full-time job or school. Users had a difficult time managing their stress, due to their busy work and school schedule. I decided to create Mizu, a music meditation app that helps people de-stress with their hectic lifestyles.'
               />
             </div>
@@ -85,7 +92,7 @@ export default class Mizu extends React.PureComponent {
           <div className='row'>
             <div className='col-12 col-md-10'>
               <img src='../../assets/Mizu/3_Mizu.png' />
-              <div className='pic-desc'>Affinity mapping with user trends</div>
+              <div className='pic-desc before-border'>Affinity mapping with user trends</div>
             </div>
           </div>
           <hr/>

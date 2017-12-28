@@ -22,16 +22,19 @@ export default class LinkNYC extends React.PureComponent {
               <div className='col-12 col-md-6'>
                 <Description
                   title='The Challenge'
+                  className='top'
                   text='I was given the assignment to design a smarter experience in anticipation of LinkNYC. LinkNYC is a communications network that will replace over 7,500 pay phones across the five boroughs with kiosks called Links. Each Link provides free wifi, phone calls, device charging, and a built-in tablet for internet browsing.'
                 />
                 <Description
                   title='Background'
+                  className={window.innerWidth > 768 ? 'before-pic' : ''}
                   text='After conducting some preliminary research, about 50,000 New Yorkers participate in running and jogging on a yearly basis. Unfortunately, about 70% are sidelined due to improper running form. I was shocked by the alarming amount of runners that experienced injuries and was curious as to the reason these injuries were so persistent.'
                 />
               </div>
               <div className='col-12 col-md-6'>
                 <Description
                   title='My Role'
+                  className={window.innerWidth > 767 ? 'top' : ''}
                   text='Product Designer, Visual Designer'
                 />
                 <Description
@@ -40,6 +43,7 @@ export default class LinkNYC extends React.PureComponent {
                 />
                 <Description
                   title='Credit'
+                  className={window.innerWidth < 768 ? 'before-pic' : ''}
                   text="Instructors — Willy Wong, J. Tang
 Instructors — Hoshi Ludwig
 Animator — Kurt Rauffer"
@@ -55,6 +59,7 @@ Animator — Kurt Rauffer"
               <div className='col-12 col-md-7'>
                 <Description
                   title='Research'
+                  className='after-pic'
                   text='I delved deeper and conducted 10 in-person interviews with runners in order to gain insight on this matter. The main takeaways from the interview are that new and old runners tend to run by themselves. Unfortunately injury is common and can happen up to twice a year. A runner’s form is important during their session.'
                 />
               </div>
@@ -71,11 +76,12 @@ Animator — Kurt Rauffer"
                 />
                 <Description
                   title='Wireframes'
+                  className='before-pic'
                   text="I began by sketching Link NYC displays and Nike+Running app screens. After a couple rounds of design I began to test the prototype with Invision. In the first version runners were having issues with the following: The activity screen felt cluttered and information presented were confusing without labels. The lack of instructions resulted in abandonment of the LinkNYC kiosk and Nike+Running app."
                 />
               </div>
             </div>
-            <div className='row'>
+            <div className='row before-border'>
               <div className='col-12 col-md-10'>
                 <img src='../../assets/LinkNYC/2_Nike.png'/>
                 <div className='pic-desc'>Wireframes for the first version of Nike+Running app.</div>
@@ -100,7 +106,7 @@ Animator — Kurt Rauffer"
             <div className='row'>
               <div className='col-12 col-md-9'>
                 <img className='placeholder' src='../../assets/LinkNYC/4_Tattoo.png' />
-                <div className='pic-desc'>Runner will place the circuit temporary sensor tattoo on their body to track their biometrics.</div>
+                <div className='pic-desc before-border'>Runner will place the circuit temporary sensor tattoo on their body to track their biometrics.</div>
               </div>
             </div>
             <hr/>
@@ -137,7 +143,7 @@ After the session, the runner can review their biometrics in the Nike+ Running a
                   text='In addition to the LinkNYC video clips, Nike will provided suggested training videos from their elite runners. The goal is to correct their running form by targeting problem areas.'
                 />
               </div>
-              <div className='col-8 offset-2 col-md-2 offset-md-1'>
+              <div className='col-8 offset-2 col-md-2 offset-md-1 before-border'>
                 <img className='iphone' src='../../assets/LinkNYC/7_iPhone.gif' />
               </div>
             </div>

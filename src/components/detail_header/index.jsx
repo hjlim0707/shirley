@@ -7,22 +7,28 @@ import Link from '../link';
 import Styles from './styles.scss';
 
 export default class DetailHeader extends React.PureComponent {
+  state = {
+    content: 'full',
+  };
+
   static propTypes = {
     title: PropTypes.string.isRequired,
-  }
+  };
 
   handleScroll = () => {
     if (window.pageYOffset === 0) {
+      this.setState({content: 'full'});
       if (window.innerWidth > 768) {
-        document.querySelector('.detail-header .title').style.fontSize = '3vw'
+        document.querySelector('.detail-header .title').style.fontSize = '48px'
       } else {
-        document.querySelector('.detail-header .title').style.fontSize = '6vw';
+        document.querySelector('.detail-header .title').style.fontSize = '24px';
       }
     } else {
+      this.setState({content: 'condensed'});
       if (window.innerWidth > 768) {
-        document.querySelector('.detail-header .title').style.fontSize = '2vw'
+        document.querySelector('.detail-header .title').style.fontSize = '24px'
       } else {
-        document.querySelector('.detail-header .title').style.fontSize = '4vw';
+        document.querySelector('.detail-header .title').style.fontSize = '18px';
       }
     }
   };
@@ -33,9 +39,9 @@ export default class DetailHeader extends React.PureComponent {
 
   render() {
     return (
-      <div className='detail-header container-fluid'>
+      <div className={`detail-header container-fluid ${this.state.content}`}>
         <div className='row'>
-          <div className='col-12 col-md-11 title'>
+          <div className='col-11 title'>
             {this.props.title}
           </div>
           <div className='col-1 right-cta'>

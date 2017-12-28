@@ -20,12 +20,14 @@ export default class FloatingChain extends React.PureComponent {
               <div className='col-12 col-md-6'>
                 <Description
                   title='The Project'
+                  className='top'
                   text="Floating Chain is Jonah Freeman and Justin Lowe's latest exhibition at Marlborough Chelsea Gallery. Both have created a whole new world: half labyrinth, half initiative path. The exhibition encapsulates different times inspired from the 60's, 70's and spaces, some intertwined. A plastic bag designed to be a utilitarian item captures the very essence of the duo's personality."
                 />
               </div>
               <div className='col-12 col-md-6'>
                 <Description
                   title='My Role'
+                  className={window.innerWidth > 767 ? 'top' : ''}
                   text='Designer'
                 />
                 <Description
@@ -34,6 +36,7 @@ export default class FloatingChain extends React.PureComponent {
                 />
                 <Description
                   title='Credit'
+                  className='before-pic'
                   text='Instructors — Nic Taylor, Brett Kilroe'
                 />
               </div>
