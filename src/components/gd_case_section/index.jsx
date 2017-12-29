@@ -17,14 +17,12 @@ export default class GDCaseSection extends React.PureComponent {
   };
 
   hover = (e) => {
-    console.log('hover', e.target)
     if (e.target.id === 'chi' || e.target.classList.contains('chi')) {
       document.querySelector('.chi-icon').setAttribute('src', '../../assets/White_YingYang.svg');
     }
   }
 
   unhover = (e) => {
-    console.log('unhover', e.target)
     if (e.target.id === 'chi' || e.target.classList.contains('chi')) {
       document.querySelector('.chi-icon').setAttribute('src', '../../assets/YingYang.svg');
     }

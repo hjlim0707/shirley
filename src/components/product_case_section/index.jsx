@@ -17,7 +17,6 @@ export default class ProductCaseSection extends React.PureComponent {
   };
 
   hover = (e) => {
-    console.log('hover', e.target)
     if (e.target.id === 'post' || e.target.classList.contains('post')) {
       document.querySelector('.pp-icon').setAttribute('src', '../../assets/White_pp_logo_text.svg');
     } else if (e.target.id === 'nike' || e.target.classList.contains('nike')) {
@@ -26,7 +25,6 @@ export default class ProductCaseSection extends React.PureComponent {
   }
 
   unhover = (e) => {
-    console.log('unhover', e.target)
     if (e.target.id === 'post' || e.target.classList.contains('post')) {
       document.querySelector('.pp-icon').setAttribute('src', '../../assets/pp_logo_text.svg');
     } else if (e.target.id === 'nike' || e.target.classList.contains('nike')) {
