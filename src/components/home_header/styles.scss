@@ -5,13 +5,13 @@
 
 .home-header {
   font-size: 16px;
-  @media(min-width: 480px) {
+  @media(min-width: 481px) {
     font-size: 24px;
+    line-height: 32px;
   }
-  .header-description {
-    width: 480px;
+  @media(max-width: 480px) {
+    line-height: 24px;
   }
-  line-height: 32px;
   font-family: 'perpetua';
   text-transform: uppercase;
   position: fixed;
@@ -20,7 +20,7 @@
   background-color: #f9f9f9;
   border-bottom: 1px solid black;
   z-index: 1;
-  @media(max-width: 480px) {
+  @media(max-width: 768px) {
     &.full {
       padding: 24px 24px 72px;
     }
@@ -28,7 +28,7 @@
       padding: 13px 24px 15px;
     }
   }
-  @media(min-width: 481px) {
+  @media(min-width: 769px) {
     &.full {
       padding: 24px 32px 96px;
     }

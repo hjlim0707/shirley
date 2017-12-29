@@ -48,7 +48,7 @@ export default class HomeHeader extends React.PureComponent {
       <div className={`home-header container-fluid ${this.state.leftContent}`}>
         <div className='row'>
           {this.leftContent()}
-          <div className={`ctas col-12 col-md-4 ${this.state.leftContent === 'full' ? 'offset-md-3' : 'condensed'}`}>
+          <div className={`ctas col-12 col-md-5 ${this.state.leftContent === 'full' ? 'offset-md-2' : 'condensed'}`}>
             <Link text='Email' href='mailto:huongshirley@gmail.com'/>
             <Link text='Resume' href='../../assets/Shirley_Huong_Resume.pdf' />
             <Link text='IG' href='http://www.instagram.com/shirleyisfishing'/>
