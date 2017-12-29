@@ -383,6 +383,22 @@ img.nike-white {
 
 img.nike-action {
   margin: 2em 0; }
+
+@media (min-width: 375px) {
+  #video {
+    height: 200px; } }
+
+@media (min-width: 480px) {
+  #video {
+    height: 320px; } }
+
+@media (min-width: 768px) {
+  #video {
+    height: 400px; } }
+
+@media (min-width: 1024px) {
+  #video {
+    height: 560px; } }
 img.gd {
   margin-bottom: 3em; }
   img.gd:last-of-type {
@@ -391,4 +407,4 @@ body {
   margin: 0;
   background-color: #f9f9f9; }
 
-/*# sourceMappingURL=main-a9cbb895bb3471bea1d2.css.map*/
+/*# sourceMappingURL=main-5ff6bdf850c1c778b500.css.map*/

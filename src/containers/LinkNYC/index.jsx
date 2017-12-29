@@ -52,7 +52,7 @@ Animator — Kurt Rauffer"
             </div>
             <div className='row'>
               <div className='col-12 col-md-10'>
-              <iframe frameborder="0" width="100%" height="564" src="https://player.vimeo.com/video/158869479"></iframe>
+                <iframe id='video' frameborder="0" width="100%" src="https://player.vimeo.com/video/158869479"></iframe>
               </div>
             </div>
             <div className='row'>
