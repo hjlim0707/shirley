@@ -56,8 +56,11 @@
   .gd-case-title {
     font-family: 'akdidenz-bold';
     font-size: 42px;
-    @media(max-width: 768px) {
-      font-size: 4.25vw;
+    @media(max-width: 480px) {
+      font-size: 18px;
+    }
+    @media(min-width: 481px) and (max-width: 768px) {
+      font-size: 34px;
     }
   }
 
@@ -70,8 +73,11 @@
   .gd-case-description {
     font-family: 'perpetua';
     font-size: 40px;
-    @media(max-width: 768px) {
+    @media(max-width: 480px) {
       font-size: 16px;
+    }
+    @media(min-width: 481px) and (max-width: 768px) {
+      font-size: 32px;
     }
   }
 }
