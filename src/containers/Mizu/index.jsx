@@ -25,7 +25,7 @@ export default class Mizu extends React.PureComponent {
               />
               <Description
                 title='Initial Research'
-                className={window.innerWidth > 768 ? 'before-pic' : ''}
+                className={window.innerWidth >= 768 ? 'before-pic' : ''}
                 text='I started by researching topics and apps that revolved around health, fitness, diet, and overall well-being. After my research came the interview process.'
               />
             </div>

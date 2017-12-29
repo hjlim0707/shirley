@@ -339,7 +339,7 @@
   .product-detail-container img {
     width: 100%; }
   .product-detail-container .pic-desc {
-    padding: 0.5em 0;
+    padding: 0.5em 0 0;
     color: #9b9b9b; }
   .product-detail-container hr {
     margin-left: -32px;
@@ -370,21 +370,32 @@
   .top {
     padding-top: 40px; } }
 
-.before-pic {
-  padding-bottom: 48px; }
+@media (min-width: 768px) {
+  .before-pic {
+    padding-bottom: 48px; } }
+
+@media (max-width: 767px) {
+  .before-pic {
+    padding-bottom: 40px; } }
 
 .before-pic-header {
   padding-bottom: 48px !important; }
 
-.after-pic {
-  padding-top: 48px; }
+@media (min-width: 768px) {
+  .after-pic {
+    padding-top: 48px; } }
 
-.before-border {
-  margin-bottom: 48px; }
+@media (max-width: 767px) {
+  .after-pic {
+    padding-top: 40px; } }
 
 @media (min-width: 768px) {
-  .first-row .col-md-6:last-of-type {
-    padding-left: 69px; } }
+  .before-border {
+    margin-bottom: 32px; } }
+
+@media (max-width: 767px) {
+  .before-border {
+    margin-bottom: 24px; } }
 img.iphone {
   margin: 2em 0; }
   img.iphone:last-of-type {
@@ -419,4 +430,4 @@ body {
   margin: 0;
   background-color: #f9f9f9; }
 
-/*# sourceMappingURL=main-bdc2ff7b8fc0965ed6ad.css.map*/
+/*# sourceMappingURL=main-2bba091ed0a3b8cbc523.css.map*/

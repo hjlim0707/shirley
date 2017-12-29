@@ -29,7 +29,7 @@ export default class Flyer extends React.PureComponent {
               />
               <Description
                 title='Users'
-                className={window.innerWidth > 768 ? 'before-pic' : ''}
+                className={window.innerWidth >= 768 ? 'before-pic' : ''}
                 text='Flyer targets a younger generation/demographic who range from 25 - 35 years of age, while the event planning app is geared towards smaller groups ranging from 6 to 20 people. This cohort is early adopters of new products and technically savvy.'
               />
             </div>

@@ -27,7 +27,7 @@ export default class LinkNYC extends React.PureComponent {
                 />
                 <Description
                   title='Background'
-                  className={window.innerWidth > 768 ? 'before-pic' : ''}
+                  className={window.innerWidth >= 768 ? 'before-pic' : ''}
                   text='After conducting some preliminary research, about 50,000 New Yorkers participate in running and jogging on a yearly basis. Unfortunately, about 70% are sidelined due to improper running form. I was shocked by the alarming amount of runners that experienced injuries and was curious as to the reason these injuries were so persistent.'
                 />
               </div>

@@ -19,7 +19,7 @@ export default class Post extends React.PureComponent {
         <DetailHeader title='Mobile Web Revamp' />
         <div className='product-detail-content'>
           <div className='first-row row'>
-            <div className='first-col col-12 col-md-6'>
+            <div className='col-12 col-md-6'>
               <Description
                 title='The Product'
                 className='top'
@@ -37,7 +37,7 @@ export default class Post extends React.PureComponent {
               />
               <Description
                 title='Users'
-                className={window.innerWidth > 768 ? 'before-pic' : ''}
+                className={window.innerWidth >= 768 ? 'before-pic' : ''}
                 text='Our targeted audiences are mobile users coming in through all channels:
                 receiver experience, marketing e-mails, DTI and SEO.'
               />
