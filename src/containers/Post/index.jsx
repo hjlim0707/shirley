@@ -132,7 +132,7 @@ Content Designer - Robyn Ng"
           </div>
           <div className='row'>
             <div className='col-12 col-md-10'>
-              <img style={{'padding-top': '32px'}} src='../../assets/PaperlessPost/4_Placeholder.gif' />
+              <img style={{'padding-top': '32px'}} src='../../assets/PaperlessPost/4_Mobile-Web.gif' />
               <div className='pic-desc'>L to R: Homepage and Paper Browser</div>
             </div>
             <div className='col-12 col-md-7'>
@@ -149,7 +149,7 @@ Content Designer - Robyn Ng"
               />
             </div>
             <div className='col-12 col-md-10'>
-              <img className='placeholder' src='../../assets/PaperlessPost/5_Placeholder.gif' />
+              <img className='placeholder' src='../../assets/PaperlessPost/5_Mobile-Web.gif' />
               <div className='pic-desc'>L to R: Homepage and Paper Browser</div>
             </div>
             <div className='col-12 col-md-7'>

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'perpetua';
-  src: url('../../fonts/font-map-perpetua-titling-mt.png');
+  src: url('../../fonts/pertili.ttf');
 }
 
 .home-header {
@@ -11,7 +11,7 @@
   .header-description {
     width: 480px;
   }
-  line-height: 1.3;
+  line-height: 32px;
   font-family: 'perpetua';
   text-transform: uppercase;
   position: fixed;

@@ -54,7 +54,7 @@ Content Designer — Norah Stone"
           </div>
           <div className='row'>
             <div className='col-12 col-md-10'>
-              <img src='../../assets/Flyer/1_Placeholder.jpg'/>
+              <img src='../../assets/Flyer/1_Flyer.gif'/>
             </div>
           </div>
           <div className='row'>
@@ -113,7 +113,7 @@ This version had a minimal and clean UI, but it wasn’t intuitive enough for ou
           </div>
           <div className='row'>
             <div className='col-12 col-md-10'>
-              <img src='../../assets/Flyer/4_Placeholder.png' />
+              <img src='../../assets/Flyer/4_Flyer.gif' />
               <div className='pic-desc'>L to R: Create your event, unplanned event</div>
             </div>
             <div className='col-12 col-md-7'>
@@ -128,7 +128,7 @@ This version had a minimal and clean UI, but it wasn’t intuitive enough for ou
               />
             </div>
             <div className='col-12 col-md-10'>
-              <img src='../../assets/Flyer/5_Placeholder.png' />
+              <img src='../../assets/Flyer/5_Flyer.gif' />
               <div className='pic-desc'>Planned Event</div>
             </div>
             <div className='col-12 col-md-7'>
