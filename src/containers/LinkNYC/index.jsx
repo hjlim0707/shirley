@@ -103,7 +103,7 @@ Animator — Kurt Rauffer"
                 <img className='iphone' src='../../assets/LinkNYC/3_Kiosk.gif' />
               </div>
             </div>
-            <div className='row'>
+            <div className='row after-pic'>
               <div className='col-12 col-md-9'>
                 <img className='placeholder' src='../../assets/LinkNYC/4_Tattoo.png' />
                 <div className='pic-desc before-border'>Runner will place the circuit temporary sensor tattoo on their body to track their biometrics.</div>
