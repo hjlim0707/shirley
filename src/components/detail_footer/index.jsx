@@ -17,15 +17,13 @@ export default class DetailFooter extends React.PureComponent {
       <div className='detail-footer container-fluid'>
         <div className='row'>
           <div className='col-6'>
-            <div className='title'>Previous</div>
             <div className='link'>
-            &mdash; <Link className='prev' text={this.props.prev.text} href={this.props.prev.href}/>
+            &larr; <Link className='prev' text='Previous' href={this.props.prev.href}/>
             </div>
           </div>
           <div className='right-cta col-6'>
-            <div className='title'>Next</div>
             <div className='link'>
-            <Link className='next' text={this.props.next.text} href={this.props.next.href}/> &mdash;
+            <Link className='next' text='Next' href={this.props.next.href}/> &rarr;
             </div>
           </div>
         </div>

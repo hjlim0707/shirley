@@ -3,25 +3,20 @@
   src: url('../../fonts/pertili.ttf');
 }
 
-@font-face {
-  font-family: 'akdidenz-med';
-  src: url('../../fonts/Akzidenz-Grotesk-BQ-Medium_2839.ttf');
-}
-
 .detail-footer {
   background-color: #fff4e1;
-  padding: 1em;
-
-  .title {
-    font-family: 'akdidenz-med';
-  }
+  padding: 14px 32px;
 
   .link {
     font-family: 'perpetua';
     text-transform: uppercase;
-    font-size: 4vw;
-    @media(min-width: 960px) {
-      font-size: 3vw;
+    @media(max-width: 768px) {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    @media(min-width: 769px) {
+      font-size: 24px;
+      line-height: 1.3;
     }
     a {
       border-bottom: none;
