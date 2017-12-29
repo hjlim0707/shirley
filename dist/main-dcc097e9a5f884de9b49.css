@@ -232,7 +232,7 @@
     .detail-header .right-cta {
       text-align: right; } }
   @media (max-width: 767px) {
-    .detail-header .right-cta {
+    .detail-header .right-cta:not(.col-sm-2) {
       margin-top: 16px; } }
   .detail-header .cta {
     font-family: 'perpetua';
@@ -407,4 +407,4 @@ body {
   margin: 0;
   background-color: #f9f9f9; }
 
-/*# sourceMappingURL=main-a5e9393b7bc589226081.css.map*/
+/*# sourceMappingURL=main-dcc097e9a5f884de9b49.css.map*/

@@ -18,6 +18,10 @@ export default class DetailHeader extends React.PureComponent {
   handleScroll = () => {
     if (window.pageYOffset === 0) {
       this.setState({content: 'full'});
+      if (window.innerWidth >= 576 && window.innerWidth < 768) {
+        document.querySelector('.detail-header .title').classList.remove('col-sm-10');
+        document.querySelector('.detail-header .right-cta').classList.remove('col-sm-2');
+      }
       if (window.innerWidth > 480) {
         document.querySelector('.detail-header .title').style.fontSize = '48px';
       } else {
@@ -25,6 +29,10 @@ export default class DetailHeader extends React.PureComponent {
       }
     } else {
       this.setState({content: 'condensed'});
+      if (window.innerWidth >= 576 && window.innerWidth < 768) {
+        document.querySelector('.detail-header .title').classList.add('col-sm-10');
+        document.querySelector('.detail-header .right-cta').classList.add('col-sm-2');
+      }
       document.querySelector('.detail-header .title').style.fontSize = '18px';
     }
   };

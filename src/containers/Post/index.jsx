@@ -132,7 +132,7 @@ Content Designer - Robyn Ng"
           </div>
           <div className='row'>
             <div className='col-12 col-md-10'>
-              <img style={{'padding-top': '32px'}} src='../../assets/PaperlessPost/4_Mobile-Web.gif' />
+              <img style={{'paddingTop': '32px'}} src='../../assets/PaperlessPost/4_Mobile-Web.gif' />
               <div className='pic-desc'>L to R: Homepage and Paper Browser</div>
             </div>
             <div className='col-12 col-md-7'>

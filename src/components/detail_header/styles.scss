@@ -44,7 +44,9 @@
       text-align: right;
     }
     @media(max-width: 767px) {
-      margin-top: 16px;
+      &:not(.col-sm-2) {
+        margin-top: 16px;
+      }
     }
   }
   .cta {
