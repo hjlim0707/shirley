@@ -18,18 +18,14 @@ export default class DetailHeader extends React.PureComponent {
   handleScroll = () => {
     if (window.pageYOffset === 0) {
       this.setState({content: 'full'});
-      if (window.innerWidth > 768) {
-        document.querySelector('.detail-header .title').style.fontSize = '48px'
+      if (window.innerWidth > 480) {
+        document.querySelector('.detail-header .title').style.fontSize = '48px';
       } else {
-        document.querySelector('.detail-header .title').style.fontSize = '24px';
+        document.querySelector('.detail-header .title').style.fontSize = '28px';
       }
     } else {
       this.setState({content: 'condensed'});
-      if (window.innerWidth > 768) {
-        document.querySelector('.detail-header .title').style.fontSize = '24px'
-      } else {
-        document.querySelector('.detail-header .title').style.fontSize = '18px';
-      }
+      document.querySelector('.detail-header .title').style.fontSize = '18px';
     }
   };
 
@@ -41,10 +37,10 @@ export default class DetailHeader extends React.PureComponent {
     return (
       <div className={`detail-header container-fluid ${this.state.content}`}>
         <div className='row'>
-          <div className='col-11 title'>
+          <div className='col-12 col-md-10 title'>
             {this.props.title}
           </div>
-          <div className='col-1 right-cta'>
+          <div className='col-1 col-md-2 right-cta'>
             <Link text='Work' href='/'/>
           </div>
         </div>

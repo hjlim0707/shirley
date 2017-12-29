@@ -24,7 +24,12 @@
     }
   }
   &.condensed {
-    padding: 14px 32px 10px;
+    padding: 14px 32px;
+    @media(max-width: 479px) {
+      .right-cta {
+        display: none;
+      }
+    }
   }
   .title {
     font-family: 'akdidenz-bold';
@@ -38,19 +43,18 @@
     @media(min-width: 480px) {
       text-align: right;
     }
-    @media(max-width: 768px) {
-      margin-top: 1em;
-      margin-bottom: 1.5em;
-    }
-    @media(max-width: 479px) {
-      display: none;
+    @media(max-width: 767px) {
+      margin-top: 16px;
     }
   }
   .cta {
     font-family: 'perpetua';
     text-transform: uppercase;
-    @media(min-width: 960px) {
+    @media(min-width: 769px) {
       font-size: 24px;
+    }
+    @media(max-width: 768px) {
+      font-size: 16px;
     }
   }
 }
