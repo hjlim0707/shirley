@@ -20,7 +20,7 @@ export default class DetailHeader extends React.PureComponent {
   }
 
   handleScroll = () => {
-    if (window.pageYOffset === 0) {
+    if (window.pageYOffset <= 0) {
       this.setState({content: 'full'});
       if (window.innerWidth >= 576 && window.innerWidth < 768) {
         document.querySelector('.detail-header .title').classList.remove('col-sm-10');

@@ -100,8 +100,9 @@ export default class Mizu extends React.PureComponent {
             Designs
           </div>
           <div className='row'>
-            <div className='col-12 col-md-6'>
+            <div className='col-12 col-md-5'>
               <Description
+                className='iphone-offset top'
                 title='Nike+ Running App'
                 text='During the run, audio cues from the Nike+ Running app will help guide her along the route. The goal was to capture a five second video as she runs past the kiosk camera.'
               />
@@ -111,8 +112,9 @@ export default class Mizu extends React.PureComponent {
             </div>
           </div>
           <div className='row'>
-            <div className='col-12 col-md-6'>
+            <div className='col-12 col-md-5'>
               <Description
+                className='iphone-offset'
                 title='Running Form'
                 text='Tapping on the red icons reveal where bad form has occurred. This provides quick access to the video clips and the runner can see exactly which parts of their form and run can be improved.'
               />
@@ -122,18 +124,19 @@ export default class Mizu extends React.PureComponent {
             </div>
           </div>
           <div className='row'>
-            <div className='col-12 col-md-6'>
+            <div className='col-12 col-md-5'>
               <Description
+                className='iphone-offset'
                 title='Personalized Coaching'
                 text='In addition to the LinkNYC video clips, Nike will provided suggested training videos from their elite runners. The goal is to correct their running form by targeting problem areas.'
               />
             </div>
             <div className='col-8 offset-2 col-md-2 offset-md-1 last'>
-              <img className='iphone' src='../../assets/Mizu/6_iPhone.gif' />
+              <img src='../../assets/Mizu/6_iPhone.gif' />
             </div>
           </div>
         </div>
-        <DetailFooter prev={{text: 'LinkNYC', href: 'linknyc'}} next={{text: 'Tuft & Needle', href: '/gd/tuft & needle'}}/>
+        <DetailFooter prev={{href: 'linknyc'}} next={{href: '/gd/tuft & needle'}}/>
       </div>
     )
   }

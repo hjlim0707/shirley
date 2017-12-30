@@ -28,6 +28,7 @@ export default class Home extends React.PureComponent {
         description='A meditation mood music app that helps you relax.'
         />
         <GDCaseSection
+          id='tuft'
           title='tuft & needle'
           description='A mattress company disrupting sleep.'
         />

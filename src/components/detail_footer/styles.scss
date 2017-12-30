@@ -3,9 +3,17 @@
   src: url('../../fonts/pertili.ttf');
 }
 
+@font-face {
+  font-family: 'akzidenz-reg';
+  src: url('../../fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf');
+}
+
 .detail-footer {
   background-color: #fff4e1;
   padding: 14px 32px;
+  @media(max-width: 480px) {
+    padding: 14px 24px;
+  }
 
   .link {
     font-family: 'perpetua';
@@ -16,13 +24,22 @@
     }
     @media(min-width: 769px) {
       font-size: 24px;
-      line-height: 1.3;
+      line-height: 1.25;
     }
     a {
       border-bottom: none;
     }
     a::after {
       content: none;
+    }
+    .arrow {
+      font-family: 'akzidenz-reg';
+    }
+    .left-arrow {
+      margin-right: 3px;
+    }
+    .right-arrow {
+      margin-left: 3px;
     }
   }
 

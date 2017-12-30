@@ -1,16 +1,27 @@
-img.iphone {
-  margin: 2em 0;
-  &:last-of-type {
-    margin: 2em 0 0;
+.iphone-first {
+  @media(min-width: 768px) {
+    padding: 22px 0 96px;
+  }
+  @media(max-width: 767px) {
+    padding: 22px 0 72px;
+  }
+}
+.iphone {
+  @media(min-width: 768px) {
+    padding-bottom: 96px;
+  }
+  @media(max-width: 767px) {
+    padding-bottom: 72px;
   }
 }
 
 img.nike-white {
-  margin: 3em 0;
-}
-
-img.nike-action {
-  margin: 2em 0;
+  @media(min-width: 768px) {
+    margin: 48px 0 0;
+  }
+  @media(max-width: 767px) {
+    margin: 40px 0 0;
+  }
 }
 
 #video {

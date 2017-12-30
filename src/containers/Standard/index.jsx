@@ -42,7 +42,7 @@ export default class Standard extends React.PureComponent {
               </div>
             </div>
             <div className='row'>
-              <div className='col-12 col-md-9'>
+              <div className='col-12 col-md-10'>
                 <img className='gd' src='../../assets/NSC/1_Fortune.jpg'/>
                 <img className='gd' src='../../assets/NSC/2_Fortune.jpg'/>
                 <img className='gd' src='../../assets/NSC/3_Fortune.jpg'/>
@@ -54,7 +54,7 @@ export default class Standard extends React.PureComponent {
               </div>
             </div>
           </div>
-        <DetailFooter prev={{text: 'Night Snack Club', href: 'night snack club'}} next={{text: 'Floating Chain', href: 'floating chain'}}/>
+        <DetailFooter prev={{href: 'night snack club'}} next={{href: 'floating chain'}}/>
       </div>
     )
   }

@@ -44,7 +44,7 @@ export default class TuftAndNeedle extends React.PureComponent {
             </div>
           </div>
           <div className='row'>
-            <div className='col-12 col-md-9'>
+            <div className='col-12 col-md-10'>
               <img className='gd' src='../../assets/TuftAndNeedle/1_TnN.jpg'/>
               <img className='gd' src='../../assets/TuftAndNeedle/2_Design.jpg'/>
               <img className='gd' src='../../assets/TuftAndNeedle/3_Design.jpg'/>
@@ -61,7 +61,7 @@ export default class TuftAndNeedle extends React.PureComponent {
             </div>
           </div>
         </div>
-        <DetailFooter prev={{text: 'Mizu', href: '/product/mizu'}} next={{text: 'Chi', href: 'chi'}}/>
+        <DetailFooter prev={{href: '/product/mizu'}} next={{href: 'chi'}}/>
       </div>
     )
   }

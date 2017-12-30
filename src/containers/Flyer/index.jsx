@@ -114,7 +114,7 @@ This version had a minimal and clean UI, but it wasn’t intuitive enough for ou
           <div className='row'>
             <div className='col-12 col-md-10'>
               <img src='../../assets/Flyer/4_Flyer.gif' />
-              <div className='pic-desc'>L to R: Create your event, unplanned event</div>
+              <div className='pic-desc'>L to R: Create your event, Planned Event</div>
             </div>
             <div className='col-12 col-md-7'>
               <Description
@@ -122,14 +122,14 @@ This version had a minimal and clean UI, but it wasn’t intuitive enough for ou
                 text='The first step in creating a Flyer is to fill out a form with the name and event type you’re hosting. In the event where the organizer wants to vote on available dates, this can help frame the question for the poll feature.'
               />
               <Description
-                title='Unplanned and Planned'
+                title='Planned and Unplanned'
                 className='before-pic'
                 text="When the organizer sets the date and time, he or she has the option to either finalize a date or set up a poll. To set up a poll, the organizer proposes up to three dates and gives the a certain amount of time for the guests to vote on their availability.  By helping the organizer narrow their choices by setting a date, the time and location can be easier to manage after."
               />
             </div>
             <div className='col-12 col-md-10'>
               <img src='../../assets/Flyer/5_Flyer.gif' />
-              <div className='pic-desc'>Planned Event</div>
+              <div className='pic-desc'>UNPLANNED</div>
             </div>
             <div className='col-12 col-md-7'>
               <Description
@@ -141,7 +141,7 @@ This version had a minimal and clean UI, but it wasn’t intuitive enough for ou
             </div>
           </div>
         </div>
-        <DetailFooter prev={{text: 'Paperless Post', href: 'post'}} next={{text: 'LinkNYC', href: 'linkNYC'}}/>
+        <DetailFooter prev={{href: 'post'}} next={{href: 'linkNYC'}}/>
       </div>
     )
   }

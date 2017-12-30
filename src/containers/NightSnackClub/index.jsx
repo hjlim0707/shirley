@@ -42,7 +42,7 @@ export default class NightSnackClub extends React.PureComponent {
             </div>
           </div>
           <div className='row'>
-            <div className='col-12 col-md-9'>
+            <div className='col-12 col-md-10'>
               <img className='gd' src='../../assets/NSC/1_Fortune.jpg'/>
               <img className='gd' src='../../assets/NSC/2_Fortune.jpg'/>
               <img className='gd' src='../../assets/NSC/3_Fortune.jpg'/>
@@ -54,7 +54,7 @@ export default class NightSnackClub extends React.PureComponent {
             </div>
           </div>
         </div>
-        <DetailFooter prev={{text: 'Chi', href: 'chi'}} next={{text: 'Standard', href: 'standard'}}/>
+        <DetailFooter prev={{href: 'chi'}} next={{href: 'standard'}}/>
       </div>
     )
   }

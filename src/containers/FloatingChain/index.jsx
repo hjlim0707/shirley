@@ -42,7 +42,7 @@ export default class FloatingChain extends React.PureComponent {
               </div>
             </div>
             <div className='row'>
-              <div className='col-12 col-md-9'>
+              <div className='col-12 col-md-10'>
                 <img className='gd' src='../../assets/FloatingChain/1_bag.jpg'/>
                 <img className='gd' src='../../assets/FloatingChain/2_bag.jpg'/>
                 <img className='gd' src='../../assets/FloatingChain/3_model.jpg'/>
@@ -51,7 +51,7 @@ export default class FloatingChain extends React.PureComponent {
               </div>
             </div>
         </div>
-        <DetailFooter prev={{text: 'Standard', href: 'standard'}} next={{text: 'Paperless Post', href: '/product/post'}}/>
+        <DetailFooter prev={{href: 'standard'}} next={{href: '/product/post'}}/>
       </div>
     )
   }

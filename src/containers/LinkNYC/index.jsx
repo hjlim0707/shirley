@@ -92,7 +92,7 @@ Animator — Kurt Rauffer"
               User Journey
             </div>
             <div className='row'>
-              <div className='col-12 col-md-6'>
+              <div className='col-12 col-md-5'>
                 <Description
                   title='LinkNYC'
                   text='By partnering with LinkNYC’s network of connected kiosks, correcting form is as simple as going out for a run. When a runner approaches participating Links outside of an NYC Nike Store, they can allow Circuit to track their device wirelessly with the Nike+ running app. Verification only takes 3 steps and will send a route to the mobile device.<br/>
@@ -100,11 +100,11 @@ Animator — Kurt Rauffer"
                 />
               </div>
               <div className='col-8 offset-2 col-md-2 offset-md-1'>
-                <img className='iphone' src='../../assets/LinkNYC/3_Kiosk.gif' />
+                <img src='../../assets/LinkNYC/3_Kiosk.gif' />
               </div>
             </div>
             <div className='row after-pic'>
-              <div className='col-12 col-md-9'>
+              <div className='col-12 col-md-10'>
                 <img className='placeholder' src='../../assets/LinkNYC/4_Tattoo.png' />
                 <div className='pic-desc before-border'>Runner will place the circuit temporary sensor tattoo on their body to track their biometrics.</div>
               </div>
@@ -113,21 +113,23 @@ Animator — Kurt Rauffer"
             <div className='col-12 section-header'>
               Nike+ Running
             </div>
-            <div className='row'>
-              <div className='col-12 col-md-6'>
+            <div className='row iphone-first'>
+              <div className='col-12 col-md-5'>
                 <Description
+                  className='no-padding'
                   title='Post-Run'
                   text='During the run, audio cues from the Nike+ Running app will help guide her along the route. The goal was to capture a five second video as she runs past the kiosk camera.<br/>
 After the session, the runner can review their biometrics in the Nike+ Running app. By prioritizing the biometrics, the runner can focus on data relevant to them. (Ground contact, bounce & cadence)'
                 />
               </div>
               <div className='col-8 offset-2 col-md-2 offset-md-1'>
-                <img className='iphone' src='../../assets/LinkNYC/5_iPhone.gif' />
+                <img src='../../assets/LinkNYC/5_iPhone.gif' />
               </div>
             </div>
             <div className='row'>
-              <div className='col-12 col-md-6'>
+              <div className='col-12 col-md-5'>
                 <Description
+                  className='iphone-offset'
                   title='Running Form'
                   text='Tapping on the red icons reveal where bad form has occurred. This provides quick access to the video clips and the runner can see exactly which parts of their form and run can be improved.'
                 />
@@ -137,14 +139,15 @@ After the session, the runner can review their biometrics in the Nike+ Running a
               </div>
             </div>
             <div className='row'>
-              <div className='col-12 col-md-6'>
+              <div className='col-12 col-md-5'>
                 <Description
+                  className='iphone-offset'
                   title='Personalized Coaching'
                   text='In addition to the LinkNYC video clips, Nike will provided suggested training videos from their elite runners. The goal is to correct their running form by targeting problem areas.'
                 />
               </div>
               <div className='col-8 offset-2 col-md-2 offset-md-1 before-border'>
-                <img className='iphone' src='../../assets/LinkNYC/7_iPhone.gif' />
+                <img src='../../assets/LinkNYC/7_iPhone.gif' />
               </div>
             </div>
             <hr/>
@@ -154,6 +157,7 @@ After the session, the runner can review their biometrics in the Nike+ Running a
             <div className='row'>
               <div className='col-12 col-md-6'>
                 <Description
+                  className='before-pic'
                   title='Visual Designs'
                   text='I wanted to tell the story of Nike+ through the use of original and bold graphics. The idea stemmed from the concept of a battery. The logo nods to the physical product while representing a surge of energy.<br/>
   <br/>The icons are inspired by the running, being simple and to remain elegant over time. The same tone and language was applied to the graphics in the video as well. Using bold and understated colors speak to the brand.'
@@ -166,19 +170,19 @@ After the session, the runner can review their biometrics in the Nike+ Running a
                 <div className='pic-desc'>Nike Circuit logo</div>
                 <img className='nike-white' src='../../assets/LinkNYC/9_Icons.png'/>
                 <img className='nike-white' src='../../assets/LinkNYC/10_Bounce.gif'/>
-                <img className='nike-action' src='../../assets/LinkNYC/11_FootGroundContact.gif'/>
+                <img className='nike-white' src='../../assets/LinkNYC/11_FootGroundContact.gif'/>
               </div>
             </div>
             <div className='row last'>
               <div className='col-12 col-md-5'>
-                <img className='nike-action' src='../../assets/LinkNYC/12_Cadence.gif'/>
+                <img className='nike-white' src='../../assets/LinkNYC/12_Cadence.gif'/>
               </div>
               <div className='col-12 col-md-5'>
-                <img className='nike-action' src='../../assets/LinkNYC/13_Tattoo.gif'/>
+                <img className='nike-white' src='../../assets/LinkNYC/13_Tattoo.gif'/>
               </div>
             </div>
           </div>
-        <DetailFooter prev={{text: 'Flyer', href: 'flyer'}} next={{text: 'Mizu', href: 'mizu'}}/>
+        <DetailFooter prev={{href: 'flyer'}} next={{href: 'mizu'}}/>
       </div>
     )
   }

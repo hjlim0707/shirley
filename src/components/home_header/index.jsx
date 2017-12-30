@@ -13,7 +13,7 @@ export default class HomeHeader extends React.PureComponent {
 
   leftContent() {
     return this.state.leftContent === 'full' ? (
-      <div className='header-description col-11 col-md-5'>
+      <div className='header-description col-11 col-sm-6 col-md-5'>
         <a className='name' onClick={this.onClick}>Shirley Huong </a> is a product designer based in Brooklyn, NYC.
       </div>
     ) : (
@@ -33,7 +33,7 @@ export default class HomeHeader extends React.PureComponent {
   }
 
   handleScroll = () => {
-    window.pageYOffset === 0 ? this.setState({ leftContent: 'full' }) : this.setState({ leftContent: 'condensed' });
+    window.pageYOffset <= 0 ? this.setState({ leftContent: 'full' }) : this.setState({ leftContent: 'condensed' });
     this.setHeaderOffset();
   }
 

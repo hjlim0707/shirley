@@ -42,7 +42,7 @@ export default class Chi extends React.PureComponent {
             </div>
           </div>
           <div className='row'>
-            <div className='col-12 col-md-9'>
+            <div className='col-12 col-md-10'>
               <img className='gd' src='../../assets/Chi/1_Cover.jpg'/>
               <img className='gd' src='../../assets/Chi/2_Cover.jpg'/>
               <img className='gd' src='../../assets/Chi/3_Spread.jpg'/>
@@ -57,7 +57,7 @@ export default class Chi extends React.PureComponent {
             </div>
           </div>
         </div>
-        <DetailFooter prev={{text: 'Tuft and Needle', href: 'tuft & needle'}} next={{text: 'Nightsnack Club', href: 'night snack club'}}/>
+        <DetailFooter prev={{href: 'tuft & needle'}} next={{href: 'night snack club'}}/>
       </div>
     )
   }
