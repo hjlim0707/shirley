@@ -15,6 +15,10 @@ export default class DetailHeader extends React.PureComponent {
     title: PropTypes.string.isRequired,
   };
 
+  onClick = () => {
+    window.scrollTo(0,0);
+  }
+
   handleScroll = () => {
     if (window.pageYOffset === 0) {
       this.setState({content: 'full'});
@@ -45,9 +49,9 @@ export default class DetailHeader extends React.PureComponent {
     return (
       <div className={`detail-header container-fluid ${this.state.content}`}>
         <div className='row'>
-          <div className='col-12 col-md-10 title'>
+          <a className='col-12 col-md-10 title' onClick={this.onClick}>
             {this.props.title}
-          </div>
+          </a>
           <div className='col-1 col-md-2 right-cta'>
             <Link text='Work' href='/'/>
           </div>

@@ -14,8 +14,7 @@ export default class HomeHeader extends React.PureComponent {
   leftContent() {
     return this.state.leftContent === 'full' ? (
       <div className='header-description col-11 col-md-5'>
-        <a className='name' onClick={this.onClick}>Shirley Huong </a> is a product designer based in Brooklyn, NYC. She currently works at <Link text='Paperless Post' href='https://www.paperlesspost.com' />,
-        focusing on Mobile Products.
+        <a className='name' onClick={this.onClick}>Shirley Huong </a> is a product designer based in Brooklyn, NYC.
       </div>
     ) : (
       <div className='header-description col-12 col-md-5'>
