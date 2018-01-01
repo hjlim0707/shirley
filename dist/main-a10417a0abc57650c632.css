@@ -94,15 +94,16 @@
       line-height: 50px; } }
   @media (max-width: 768px) {
     .product-case-section {
-      padding: 24px 0; } }
-  .product-case-section:hover {
-    background-color: black; }
-  .product-case-section:hover .product-case-title {
-    color: white; }
-  .product-case-section:hover .horizontal-line {
-    color: white; }
-  .product-case-section:hover .product-case-description {
-    color: white; }
+      padding: 24px 9px; } }
+  @media (min-width: 481px) {
+    .product-case-section:hover {
+      background-color: black; }
+    .product-case-section:hover .product-case-title {
+      color: white; }
+    .product-case-section:hover .horizontal-line {
+      color: white; }
+    .product-case-section:hover .product-case-description {
+      color: white; } }
   .product-case-section img {
     display: inline;
     padding-right: 10px; }
@@ -175,15 +176,16 @@
   padding: 48px 0; }
   @media (max-width: 768px) {
     .gd-case-section {
-      padding: 24px 0; } }
-  .gd-case-section:hover {
-    background-color: black; }
-  .gd-case-section:hover .gd-case-title {
-    color: white; }
-  .gd-case-section:hover .horizontal-line {
-    color: white; }
-  .gd-case-section:hover .gd-case-description {
-    color: white; }
+      padding: 24px 9px; } }
+  @media (min-width: 481px) {
+    .gd-case-section:hover {
+      background-color: black; }
+    .gd-case-section:hover .gd-case-title {
+      color: white; }
+    .gd-case-section:hover .horizontal-line {
+      color: white; }
+    .gd-case-section:hover .gd-case-description {
+      color: white; } }
   .gd-case-section img {
     position: relative;
     bottom: 12px;
@@ -525,4 +527,4 @@ body {
 html, body {
   overflow-x: hidden; }
 
-/*# sourceMappingURL=main-86f11cbb1dac6e4c20bc.css.map*/
+/*# sourceMappingURL=main-a10417a0abc57650c632.css.map*/

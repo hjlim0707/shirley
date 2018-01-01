@@ -17,20 +17,22 @@
   }
   border-bottom: 1px solid black;
   @media(max-width: 768px) {
-    padding: 24px 0;
+    padding: 24px 9px;
   }
   padding: 48px 0;
-  &:hover {
-    background-color: black;
-  }
-  &:hover .product-case-title {
-    color: white;
-  }
-  &:hover .horizontal-line {
-    color: white;
-  }
-  &:hover .product-case-description {
-    color: white;
+  @media(min-width: 481px) {
+    &:hover {
+      background-color: black;
+    }
+    &:hover .product-case-title {
+      color: white;
+    }
+    &:hover .horizontal-line {
+      color: white;
+    }
+    &:hover .product-case-description {
+      color: white;
+    }
   }
 
   img {

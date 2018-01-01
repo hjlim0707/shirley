@@ -14,22 +14,25 @@
   width: 100%;
   border-bottom: 1px solid black;
   padding: 48px 0;
+
   @media(max-width: 768px) {
-    padding: 24px 0;
+    padding: 24px 9px;
   }
 
-  &:hover {
-    background-color: black;
-  }
+  @media(min-width: 481px) {
+    &:hover {
+      background-color: black;
+    }
 
-  &:hover .gd-case-title {
-    color: white;
-  }
-  &:hover .horizontal-line {
-    color: white;
-  }
-  &:hover .gd-case-description {
-    color: white;
+    &:hover .gd-case-title {
+      color: white;
+    }
+    &:hover .horizontal-line {
+      color: white;
+    }
+    &:hover .gd-case-description {
+      color: white;
+    }
   }
 
   img {
