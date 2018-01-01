@@ -129,7 +129,7 @@ This version had a minimal and clean UI, but it wasn’t intuitive enough for ou
             </div>
             <div className='col-12 col-md-10'>
               <img src='../../assets/Flyer/5_Flyer.gif' />
-              <div className='pic-desc'>UNPLANNED</div>
+              <div className='pic-desc'>Unplanned</div>
             </div>
             <div className='col-12 col-md-7'>
               <Description

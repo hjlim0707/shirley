@@ -169,6 +169,7 @@ After the session, the runner can review their biometrics in the Nike+ Running a
                 <img src='../../assets/LinkNYC/8_Logo.jpg'/>
                 <div className='pic-desc'>Nike Circuit logo</div>
                 <img className='nike-white' src='../../assets/LinkNYC/9_Icons.png'/>
+                <div className='pic-desc'>Icons</div>
                 <img className='nike-white' src='../../assets/LinkNYC/10_Bounce.gif'/>
                 <img className='nike-white' src='../../assets/LinkNYC/11_FootGroundContact.gif'/>
               </div>

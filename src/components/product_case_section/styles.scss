@@ -41,7 +41,11 @@
     position: relative;
     top: -10px;
     max-width: 10em;
-    @media(max-width: 768px) {
+    @media(max-width: 768px) and (min-width: 481px) {
+      top: -2px;
+      max-width: 153px;
+    }
+    @media(max-width: 480px) {
       top: -2px;
       max-width: 6em;
     }
@@ -50,9 +54,12 @@
     position: relative;
     top: -7px;
     max-width: 5.4em;
-    @media(max-width: 768px) {
+    @media(max-width: 768px) and (min-width: 481px) {
+      max-width: 74px;
+    }
+    @media(max-width: 480px) {
       top: -2px;
-      max-width: 2.5em;
+      width: 40px;
     }
   }
 
@@ -90,6 +97,7 @@
     }
     @media(min-width: 481px) and (max-width: 768px) {
       font-size: 32px;
+      line-height: 38px;
     }
   }
 }
