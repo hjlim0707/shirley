@@ -52,7 +52,7 @@ export default class Mizu extends React.PureComponent {
             </div>
           </div>
           <div className='row'>
-            <div className='col-12 col-md-6'>
+            <div className='col-12 col-md-9 col-lg-7'>
               <Description
                 title='Interviews'
                 className='after-pic'
@@ -66,7 +66,7 @@ export default class Mizu extends React.PureComponent {
             Process
           </div>
           <div className='row'>
-            <div className='col-12 col-md-7'>
+            <div className='col-12 col-md-9 col-lg-7'>
               <Description
                 title='Affinity Mapping'
                 className='before-pic'
@@ -81,9 +81,9 @@ export default class Mizu extends React.PureComponent {
             </div>
           </div>
           <div className='row'>
-            <div className='col-12 col-md-7'>
+            <div className='col-12 col-md-9 col-lg-7'>
               <Description
-                title='Prototyping'
+                title='Emerging Patterns'
                 className='after-pic before-pic'
                 text='From those insights I found 3 main trends. Feelings of anxiety and stress were present when their work wasn’t done. 3 out of 4 users gets less than 6 hours of sleep per day. All users had busy schedules that involved either a full-time job or school. Users had a difficult time managing their stress, due to their busy work and school schedule. I decided to create Mizu, a music meditation app that helps people de-stress with their hectic lifestyles.'
               />
@@ -92,47 +92,47 @@ export default class Mizu extends React.PureComponent {
           <div className='row'>
             <div className='col-12 col-md-10'>
               <img src='../../assets/Mizu/3_Mizu.png' />
-              <div className='pic-desc before-border'>Affinity mapping with user trends</div>
+              <div className='pic-desc before-border'>Wireframes for hallway testing</div>
             </div>
           </div>
           <hr/>
-          <div className='col-12 section-header'>
+          <div className='col-12 section-header' style={{paddingBottom: '24px'}}>
             Designs
           </div>
           <div className='row'>
             <div className='col-12 col-md-5'>
               <Description
-                className='iphone-offset top'
+                className={`no-padding ${window.innerWidth <= 480 ? 'before-pic' : ''}`}
                 title='Nike+ Running App'
                 text='During the run, audio cues from the Nike+ Running app will help guide her along the route. The goal was to capture a five second video as she runs past the kiosk camera.'
               />
             </div>
             <div className='col-8 offset-2 col-md-2 offset-md-1'>
-              <img className='iphone' src='../../assets/Mizu/4_iPhone.gif' />
+              <img className='iphone phone-pic' src='../../assets/Mizu/4_iPhone.gif' />
             </div>
           </div>
           <div className='row'>
             <div className='col-12 col-md-5'>
               <Description
-                className='iphone-offset'
+                className={`iphone-offset ${window.innerWidth <= 480 ? 'before-pic' : ''}`}
                 title='Running Form'
                 text='Tapping on the red icons reveal where bad form has occurred. This provides quick access to the video clips and the runner can see exactly which parts of their form and run can be improved.'
               />
             </div>
             <div className='col-8 offset-2 col-md-2 offset-md-1'>
-              <img className='iphone' src='../../assets/Mizu/5_iPhone.gif' />
+              <img className='iphone phone-pic' src='../../assets/Mizu/5_iPhone.gif' />
             </div>
           </div>
           <div className='row'>
             <div className='col-12 col-md-5'>
               <Description
-                className='iphone-offset'
+                className={`iphone-offset ${window.innerWidth <= 480 ? 'before-pic' : ''}`}
                 title='Personalized Coaching'
                 text='In addition to the LinkNYC video clips, Nike will provided suggested training videos from their elite runners. The goal is to correct their running form by targeting problem areas.'
               />
             </div>
             <div className='col-8 offset-2 col-md-2 offset-md-1 last'>
-              <img src='../../assets/Mizu/6_iPhone.gif' />
+              <img className='phone-pic' src='../../assets/Mizu/6_iPhone.gif' />
             </div>
           </div>
         </div>

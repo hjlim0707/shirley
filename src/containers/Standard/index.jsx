@@ -43,14 +43,14 @@ export default class Standard extends React.PureComponent {
             </div>
             <div className='row'>
               <div className='col-12 col-md-10'>
-                <img className='gd' src='../../assets/NSC/1_Fortune.jpg'/>
-                <img className='gd' src='../../assets/NSC/2_Fortune.jpg'/>
-                <img className='gd' src='../../assets/NSC/3_Fortune.jpg'/>
-                <img className='gd' src='../../assets/NSC/4_Totes.jpg'/>
-                <img className='gd' src='../../assets/NSC/5_Totes.jpg'/>
-                <img className='gd' src='../../assets/NSC/6_Totes.jpg'/>
-                <img className='gd' src='../../assets/NSC/7_Totes.jpg'/>
-                <img className='gd last' src='../../assets/NSC/8_Totes.jpg'/>
+                <img className='gd' src='../../assets/Standard/1_paint.jpg'/>
+                <img className='gd' src='../../assets/Standard/2_paint.jpg'/>
+                <img className='gd' src='../../assets/Standard/3_paint.jpg'/>
+                <img className='gd' src='../../assets/Standard/4_paint.jpg'/>
+                <img className='gd' src='../../assets/Standard/5_paint.jpg'/>
+                <img className='gd' src='../../assets/Standard/6_process.jpg'/>
+                <img className='gd' src='../../assets/Standard/7_process.jpg'/>
+                <img className='gd last' src='../../assets/Standard/8_process.jpg'/>
               </div>
             </div>
           </div>

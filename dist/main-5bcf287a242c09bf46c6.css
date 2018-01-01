@@ -294,10 +294,10 @@
 
 .detail-footer {
   background-color: #fff4e1;
-  padding: 14px 32px 13px; }
+  padding: 14px 32px; }
   @media (max-width: 480px) {
     .detail-footer {
-      padding: 14px 24px 13px; } }
+      padding: 14px 24px; } }
   .detail-footer .link {
     font-family: 'perpetua';
     text-transform: uppercase; }
@@ -480,6 +480,10 @@
     padding-bottom: 72px; } }
 
 @media (min-width: 768px) {
+  img.phone-pic {
+    min-width: 260px; } }
+
+@media (min-width: 768px) {
   img.nike-white {
     margin: 48px 0 0; } }
 
@@ -513,4 +517,4 @@ body {
   margin: 0;
   background-color: #f9f9f9; }
 
-/*# sourceMappingURL=main-128aa5ddb08c66325c27.css.map*/
+/*# sourceMappingURL=main-5bcf287a242c09bf46c6.css.map*/
