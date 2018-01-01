@@ -53,10 +53,10 @@
       padding: 15px 32px; } }
   .home-header .name {
     cursor: pointer; }
-  @media (max-width: 767px) {
+  @media (max-width: 992px) {
     .home-header .ctas {
       margin-top: 24px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .home-header .ctas {
       text-align: right; } }
   @media (max-width: 480px) {
@@ -64,9 +64,6 @@
       display: none; } }
   .home-header .ctas .cta {
     margin-right: 56px; }
-  @media (min-width: 768px) and (max-width: 960px) {
-    .home-header .ctas .cta {
-      margin-right: 25px; } }
   .home-header .ctas .cta:last-of-type {
     margin-right: 0; }
 @font-face {
@@ -501,4 +498,4 @@ body {
   margin: 0;
   background-color: #f9f9f9; }
 
-/*# sourceMappingURL=main-6d9b2597d7e4c8fb1545.css.map*/
+/*# sourceMappingURL=main-803e41ae636e7300f835.css.map*/

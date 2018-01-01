@@ -13,11 +13,11 @@ export default class HomeHeader extends React.PureComponent {
 
   leftContent() {
     return this.state.leftContent === 'full' ? (
-      <div className='header-description col-11 col-sm-6 col-md-5'>
+      <div className='header-description col-11 col-lg-5'>
         <a className='name' onClick={this.onClick}>Shirley Huong </a> is a product designer based in Brooklyn, NYC.
       </div>
     ) : (
-      <div className='header-description col-12 col-md-5'>
+      <div className='header-description col-12 col-lg-5'>
         <a className='name' onClick={this.onClick}>Shirley Huong</a>
       </div>
     )
@@ -47,7 +47,7 @@ export default class HomeHeader extends React.PureComponent {
       <div className={`home-header container-fluid ${this.state.leftContent}`}>
         <div className='row'>
           {this.leftContent()}
-          <div className={`ctas col-12 col-md-5 ${this.state.leftContent === 'full' ? 'offset-md-2' : 'offset-md-2 condensed'}`}>
+          <div className={`ctas col-12 col-lg-5 ${this.state.leftContent === 'full' ? 'offset-lg-2' : 'offset-lg-2 condensed'}`}>
             <Link text='Email' href='mailto:huongshirley@gmail.com'/>
             <Link text='Resume' href='../../assets/Shirley_Huong_Resume.pdf' />
             <Link text='IG' href='http://www.instagram.com/shirleyisfishing'/>

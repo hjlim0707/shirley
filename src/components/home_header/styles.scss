@@ -42,10 +42,10 @@
   }
 
   .ctas {
-    @media(max-width: 767px) {
+    @media(max-width: 992px) {
       margin-top: 24px;
     }
-    @media(min-width: 768px) {
+    @media(min-width: 992px) {
       text-align: right;
     }
     @media(max-width: 480px) {
@@ -55,11 +55,6 @@
     }
     .cta {
       margin-right: 56px;
-    }
-    @media(min-width: 768px) and (max-width: 960px) {
-      .cta {
-        margin-right: 25px;
-      }
     }
     .cta:last-of-type {
       margin-right: 0;
