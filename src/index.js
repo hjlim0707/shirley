@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ScrollToTop from './ScrollToTop.js';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-// import './index.scss';
 import App from './App';
 
 ReactDOM.render(
   <Router>
-    <Route path="/" component={App}/>
+    <ScrollToTop>
+      <Route path="/" component={App} />
+    </ScrollToTop>
   </Router>, document.getElementById('root'));
