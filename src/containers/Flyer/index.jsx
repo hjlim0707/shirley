@@ -105,6 +105,7 @@ This version had a minimal and clean UI, but it wasn’t intuitive enough for ou
           <div className='row before-border'>
             <div className='col-12 col-md-10'>
               <img src='../../assets/Flyer/3_Flyer.png' />
+              <div className='pic-desc'>Initial wireframes for planned and unplanned events</div>
             </div>
           </div>
           <hr/>

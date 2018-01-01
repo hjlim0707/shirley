@@ -518,7 +518,11 @@ img.gd {
   img.gd:last-of-type {
     margin-bottom: 0; }
 body {
+  position: relative;
   margin: 0;
   background-color: #f9f9f9; }
 
-/*# sourceMappingURL=main-9097780a59a06bb2b872.css.map*/
+html, body {
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=main-86f11cbb1dac6e4c20bc.css.map*/
