@@ -57,13 +57,13 @@
     .home-header.condensed .ctas {
       margin-top: 0;
       text-align: right; } }
-  @media (max-width: 768px) and (min-width: 481px) {
+  @media (max-width: 991px) and (min-width: 481px) {
     .home-header .ctas {
       margin-top: 48px; } }
   @media (min-width: 992px) {
     .home-header .ctas {
       text-align: right; } }
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     .home-header .ctas {
       margin-top: 24px; }
       .home-header .ctas.condensed {
@@ -527,4 +527,4 @@ body {
 html, body {
   overflow-x: hidden; }
 
-/*# sourceMappingURL=main-50770437ed647502874d.css.map*/
+/*# sourceMappingURL=main-4ab23254631687ab503b.css.map*/
