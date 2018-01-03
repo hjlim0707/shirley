@@ -127,12 +127,12 @@ Content Designer - Robyn Ng"
             </div>
           </div>
           <hr/>
-          <div className='col-12 section-header'>
+          <div className='col-12 section-header before-pic-header'>
             Designs
           </div>
           <div className='row'>
             <div className='col-12 col-md-10'>
-              <img style={{'paddingTop': '32px'}} src='../../assets/PaperlessPost/4_Mobile-Web.gif' />
+              <img src='../../assets/PaperlessPost/4_Mobile-Web.gif' />
               <div className='pic-desc'>L to R: Homepage and Paper Browser</div>
             </div>
             <div className='col-12 col-md-7'>

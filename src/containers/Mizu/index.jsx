@@ -19,7 +19,7 @@ export default class Mizu extends React.PureComponent {
           <div className='first-row row'>
             <div className='col-12 col-md-6'>
               <Description
-                title='The Product'
+                title='The Project'
                 className='top'
                 text='I was given a week to rapid prototype a health tracker app. Ironically my current lifestyle is the complete opposite of what a healthy person should practice (potato chips for dinner and restless nights due to class projects and a part time job). This might be a sign to come to terms to a regular sleeping schedule and design an app to help other restless souls like myself.'
               />
@@ -96,15 +96,15 @@ export default class Mizu extends React.PureComponent {
             </div>
           </div>
           <hr/>
-          <div className='col-12 section-header' style={{paddingBottom: '24px'}}>
+          <div className='col-12 section-header before-pic-header'>
             Designs
           </div>
           <div className='row'>
             <div className='col-12 col-md-5'>
               <Description
                 className={`no-padding ${window.innerWidth <= 480 ? 'before-pic' : ''}`}
-                title='Nike+ Running App'
-                text='During the run, audio cues from the Nike+ Running app will help guide her along the route. The goal was to capture a five second video as she runs past the kiosk camera.'
+                title='Onboarding'
+                text='It was fun to experiment with Cinema 4D, pairing visuals with music provides the user with a calming environment and experience. When a user opens the app they’re greeted by 3 simple messages that guide them through on boarding.'
               />
             </div>
             <div className='col-8 offset-2 col-md-2 offset-md-1'>
@@ -115,8 +115,8 @@ export default class Mizu extends React.PureComponent {
             <div className='col-12 col-md-5'>
               <Description
                 className={`iphone-offset ${window.innerWidth <= 480 ? 'before-pic' : ''}`}
-                title='Running Form'
-                text='Tapping on the red icons reveal where bad form has occurred. This provides quick access to the video clips and the runner can see exactly which parts of their form and run can be improved.'
+                title='Mood Music'
+                text='The goal is to create a simple experience so the user can interact with the app without having to follow detailed instructions. We give our users 3 options to help calm their sate of mind. The app plays different music depending on the mood that was chosen.'
               />
             </div>
             <div className='col-8 offset-2 col-md-2 offset-md-1'>
@@ -127,8 +127,8 @@ export default class Mizu extends React.PureComponent {
             <div className='col-12 col-md-5'>
               <Description
                 className={`iphone-offset ${window.innerWidth <= 480 ? 'before-pic' : ''}`}
-                title='Personalized Coaching'
-                text='In addition to the LinkNYC video clips, Nike will provided suggested training videos from their elite runners. The goal is to correct their running form by targeting problem areas.'
+                title='Congrats Screen'
+                text='Once the user completes the meditation session, the guide and music lets them know their completion and accomplishment. The inspirational message changes in every session and also serves as a form of motivation to keep meditating.'
               />
             </div>
             <div className='col-8 offset-2 col-md-2 offset-md-1 last'>

@@ -76,7 +76,12 @@
 }
 
 .before-pic-header {
-  padding-bottom: 48px !important;
+  @media(min-width: 768px) {
+    padding-bottom: 32px !important;
+  }
+  @media(max-width: 767px) {
+    padding-bottom: 24px !important;
+  }
 }
 
 .after-pic {

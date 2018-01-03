@@ -79,7 +79,7 @@ Content Designer — Norah Stone"
               <Description
                 title='Planned and Unplanned'
                 className='before-pic'
-                text="There are two scenarios, planned and unplanned. For the planned scenario, the organizer sets one date, time, and location and sends out a flyer to the group. In an unplanned scenario, it is especially important for the organizer to suggest dates and coordinate the other details after. Our intentions were to make our organizer’s life easier by helping them finalize a date for their event. When guests engage with the organizer, their participation adds more value into the event as more input is shared.."
+                text="There are two scenarios, planned and unplanned. For the planned scenario, the organizer sets one date, time, and location and sends out a flyer to the group. In an unplanned scenario, it is especially important for the organizer to suggest dates and coordinate the other details after. Our intentions were to make our organizer’s life easier by helping them finalize a date for their event. When guests engage with the organizer, their participation adds more value into the event as more input is shared."
               />
             </div>
           </div>

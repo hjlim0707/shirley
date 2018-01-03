@@ -88,13 +88,13 @@ Animator — Kurt Rauffer"
               </div>
             </div>
             <hr/>
-            <div className='col-12 section-header' style={{paddingBottom: '24px'}}>
+            <div className={`col-12 section-header ${window.innerWidth >= 768 ? 'before-pic-header' : ''}`}>
               User Journey
             </div>
             <div className='row'>
               <div className='col-12 col-md-5'>
                 <Description
-                  className={`no-padding ${window.innerWidth <= 480 ? 'before-pic' : ''}`}
+                  className={`${window.innerWidth >= 768 ? 'no-padding' : ''} ${window.innerWidth <= 480 ? 'before-pic' : ''}`}
                   title='LinkNYC'
                   text='By partnering with LinkNYC’s network of connected kiosks, correcting form is as simple as going out for a run. When a runner approaches participating Links outside of an NYC Nike Store, they can allow Circuit to track their device wirelessly with the Nike+ running app. Verification only takes 3 steps and will send a route to the mobile device.<br/>
   <br/>Routes are selected based on Link locations and proximity to runner. It will then print out a temporary sensor tattoo to track her biometrics.'

@@ -377,9 +377,8 @@
 .description .description-text > * {
   font-size: 1em; }
 
-@media (min-width: 768px) {
-  .description.no-padding {
-    padding: 0; } }
+.description.no-padding {
+  padding-top: 0; }
 
 @media (min-width: 768px) {
   .description.iphone-offset {
@@ -451,8 +450,13 @@
   .before-pic {
     padding-bottom: 40px; } }
 
-.before-pic-header {
-  padding-bottom: 48px !important; }
+@media (min-width: 768px) {
+  .before-pic-header {
+    padding-bottom: 32px !important; } }
+
+@media (max-width: 767px) {
+  .before-pic-header {
+    padding-bottom: 24px !important; } }
 
 @media (min-width: 768px) {
   .after-pic {
@@ -527,4 +531,4 @@ body {
 html, body {
   overflow-x: hidden; }
 
-/*# sourceMappingURL=main-3bd89a4def9feea5c003.css.map*/
+/*# sourceMappingURL=main-7e992947f9e5b2fa4efd.css.map*/
