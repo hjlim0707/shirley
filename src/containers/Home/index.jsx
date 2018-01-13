@@ -45,10 +45,10 @@ export default class Home extends React.PureComponent {
           title='standard'
           description='Reimagining paint containers with a new identity.'
         />
-        <GDCaseSection
+        {/*<GDCaseSection
           title='floating chain'
           description="Invitations for Jonah Freeman & Justin Lowe's art exhibition."
-        />
+        />*/}
       </div>
     );
   }

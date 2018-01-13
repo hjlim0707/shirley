@@ -42,7 +42,7 @@ export default class Mizu extends React.PureComponent {
               <Description
                 title='Credit'
                 className={window.innerWidth < 768 ? 'before-pic' : ''}
-                text="Instructors — Rashida White"
+                text="Instructors — Rashida White, Roman Christian"
               />
             </div>
           </div>
