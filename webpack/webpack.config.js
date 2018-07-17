@@ -53,6 +53,7 @@ module.exports = {
       alwaysWriteToDisk: true,
       inject: true,
       template: path.resolve(__dirname, '../src/index.html'),
+      favicon: path.resolve(__dirname, '../src/assets/pinkrectangle.png'),
   }), new HtmlWebpackHarddiskPlugin(),
     new CopyWebpackPlugin([{
       from: 'src/assets',
