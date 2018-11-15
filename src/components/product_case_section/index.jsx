@@ -42,7 +42,7 @@ export default class ProductCaseSection extends React.PureComponent {
   renderNikeIcon() {
     return this.props.id === 'nike' ? (
       <span>
-        <img className='nike-icon'src='../../assets/Nike_Logo.svg'/>
+        <img className='nike-icon' src='../../assets/Nike_Logo.svg'/>
       </span>) : null;
   }
 
