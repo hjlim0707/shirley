@@ -31,7 +31,7 @@ export default class Post extends React.PureComponent {
                 title='Scope'
                 text='I joined the Discovery team and worked with my fellow PD &
                 PMs to increase overall engagement on the mobile web. The strategy was
-                to imporve education, ease of use, and a better experience by rebuilding on
+                to improve education, ease of use, and a better experience by rebuilding on
                 a new code-base. This mobile revamp is broken up into several phases with A/B
                 tests.'
               />

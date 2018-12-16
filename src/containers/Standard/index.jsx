@@ -32,7 +32,7 @@ export default class Standard extends React.PureComponent {
                 />
                 <Description
                   title='Time'
-                  text='05/2015'
+                  text='03/2015 - 05/2015'
                 />
                 <Description
                   title='Credit'

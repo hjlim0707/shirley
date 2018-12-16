@@ -32,7 +32,7 @@ export default class Chi extends React.PureComponent {
               />
               <Description
                 title='Time'
-                text='08/2017'
+                text='01/2015 - 03/2015'
               />
               <Description
                 title='Credit'

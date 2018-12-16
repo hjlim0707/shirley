@@ -32,7 +32,7 @@ export default class NightSnackClub extends React.PureComponent {
               />
               <Description
                 title='Time'
-                text='08/2017'
+                text='08/2017 - 09/2017'
               />
               <Description
                 title='Credit'
