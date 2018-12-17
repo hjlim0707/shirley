@@ -547,12 +547,20 @@ img.gd {
   .permission-check-form .form-container label {
     font-family: 'perpetua';
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 40px;
     line-height: 1.25; }
+    @media (min-width: 481px) and (max-width: 768px) {
+      .permission-check-form .form-container label {
+        font-size: 32px; } }
+    @media (max-width: 480px) {
+      .permission-check-form .form-container label {
+        font-size: 16px; } }
   .permission-check-form .form-container input {
     padding: 12px;
     background-color: #fff4e1;
     border-style: none; }
+  .permission-check-form .form-container input:focus {
+    outline: none; }
   .permission-check-form .form-container input.error {
     border: 1px solid red; }
   .permission-check-form .form-container .error-message {
@@ -571,7 +579,6 @@ img.gd {
       max-width: 4em; } }
   @media (max-width: 480px) {
     .permission-check-form .nike-icon {
-      top: 7px;
       width: 40px; } }
 body {
   position: relative;
@@ -581,4 +588,4 @@ body {
 html, body {
   overflow-x: hidden; }
 
-/*# sourceMappingURL=main-163cf6892865ba8a6c82.css.map*/
+/*# sourceMappingURL=main-bd920054f9feddd2cc92.css.map*/
