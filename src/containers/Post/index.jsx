@@ -167,7 +167,7 @@ Content Designer - Robyn Ng"
             </div>
           </div>
         </div>
-        <DetailFooter prev={{href: '/gd/standard'}} next={{href: 'flyer'}}/>
+        <DetailFooter prev={{href: 'run-club'}} next={{href: 'flyer'}}/>
       </div>
     )
   }

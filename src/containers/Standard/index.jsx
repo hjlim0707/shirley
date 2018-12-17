@@ -54,7 +54,7 @@ export default class Standard extends React.PureComponent {
               </div>
             </div>
           </div>
-        <DetailFooter prev={{href: 'night snack club'}} next={{href: '/product/post'}}/>
+        <DetailFooter prev={{href: 'night snack club'}} next={{href: '/product/run-club'}}/>
       </div>
     )
   }

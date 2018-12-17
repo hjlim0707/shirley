@@ -21,8 +21,8 @@ const FullHeaderContent = () => (
   </div>
 );
 
-export const CondensedHeaderContent = () => (
-  <div className='home-header container-fluid condensed'>
+export const CondensedHeaderContent = ({ style }) => (
+  <div className='home-header container-fluid condensed' style={style}>
     <div className='row'>
       <div className='header-description col-12 col-md-4 col-lg-5'>
         <a className='name' onClick={() => window.scrollTo(0,0)}>Shirley Huong</a>
@@ -56,7 +56,11 @@ export default class HomeHeader extends React.PureComponent {
     this.setHeaderOffset();
   }
 
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
   render() {
-     return this.state.leftContent === 'full' ? <FullHeaderContent /> : <CondensedHeaderContent />;
+     return this.state.leftContent === 'full' ? <FullHeaderContent /> : <CondensedHeaderContent {...this.props} />;
    }
 }
