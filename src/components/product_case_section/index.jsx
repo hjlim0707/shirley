@@ -18,47 +18,53 @@ export default class ProductCaseSection extends React.PureComponent {
 
   hover = (e) => {
     if (e.target.id === 'post' || e.target.classList.contains('post')) {
-      document.querySelector('.pp-icon').setAttribute('src', '../../assets/White_pp_logo_text.svg');
+      document.querySelector('.pp-icon').style.background = 'url(../../assets/White_pp_logo_text.svg) no-repeat';
     } else if (e.target.id === 'nike' || e.target.classList.contains('nike')) {
-      document.querySelector('.nike-icon').setAttribute('src', '../../assets/White_Nike_Logo.svg');
+      document.querySelector('.product-case-section-nike .nike-icon').style.background = 'url(../../assets/White_Nike_Logo.svg) no-repeat';
+    } else if (e.target.id === 'run-club' || e.target.classList.contains('run-club')) {
+      document.querySelector('.product-case-section-run-club .nike-icon').style.background = 'url(../../assets/White_Nike_Logo.svg) no-repeat';
     }
   }
 
   unhover = (e) => {
     if (e.target.id === 'post' || e.target.classList.contains('post')) {
-      document.querySelector('.pp-icon').setAttribute('src', '../../assets/pp_logo_text.svg');
+      document.querySelector('.pp-icon').style.background = 'url(../../assets/pp_logo_text.svg) no-repeat';
     } else if (e.target.id === 'nike' || e.target.classList.contains('nike')) {
-      document.querySelector('.nike-icon').setAttribute('src', '../../assets/Nike_Logo.svg');
+      document.querySelector('.product-case-section-nike .nike-icon').style.background = 'url(../../assets/Nike_Logo.svg) no-repeat';
+    } else if (e.target.id === 'run-club' || e.target.classList.contains('run-club')) {
+      document.querySelector('.product-case-section-run-club .nike-icon').style.background = 'url(../../assets/Nike_Logo.svg) no-repeat';
     }
   }
 
   renderPPIcon() {
-    return this.props.id === 'post' ? (
-      <span>
-        <img className='pp-icon' src='../../assets/pp_logo_text.svg'/>
-      </span>) : null;
+    return (<div className='pp-icon' />);
   }
 
   renderNikeIcon() {
-    return this.props.id === 'nike' ? (
-      <span>
-        <img className='nike-icon' src='../../assets/Nike_Logo.svg'/>
-      </span>) : null;
+    return (<div className='nike-icon' />);
   }
 
   render() {
+    const { id } = this.props;
+
     return (
-      <div className='product-case-section' id={this.props.id} onMouseOver={this.hover} onMouseLeave={this.unhover}>
+      <div
+        className={`product-case-section product-case-section-${id}`}
+        id={this.props.id}
+        onMouseOver={this.hover}
+        onMouseLeave={this.unhover}
+      >
         <Link className={`product-case-link ${this.props.id}`} to={`/product/${this.props.title}`}>
           <div className={`col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 ${this.props.id}`}>
-            {this.renderPPIcon()}
+            {id === 'post' && this.renderPPIcon()}
+            {id === 'run-club' && this.renderNikeIcon()}
             <span className={`product-case-title ${this.props.id}`}>
               {this.props.title}
             </span>
             <span className={`horizontal-line ${this.props.id}`}>
               &mdash;
             </span>
-            {this.renderNikeIcon()}
+            {id === 'nike' && this.renderNikeIcon()}
             <span className={`product-case-description ${this.props.id}`}>
               {this.props.description}
             </span>

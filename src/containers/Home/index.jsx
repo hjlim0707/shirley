@@ -10,6 +10,11 @@ export default class Home extends React.PureComponent {
       <div className='home-container'>
         <HomeHeader />
         <ProductCaseSection
+        id='run-club'
+        title='run-club'
+        description='Music resdesign with the Nike run club app.'
+        />
+        <ProductCaseSection
         id='post'
         title='post'
         description='Reimagining invites through design and technology.'

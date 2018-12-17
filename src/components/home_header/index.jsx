@@ -29,7 +29,7 @@ export default class HomeHeader extends React.PureComponent {
 
   setHeaderOffset() {
     const headerHeight = document.querySelector('.home-header').offsetHeight;
-    document.querySelector('#post').style['marginTop'] = `${headerHeight}px`;
+    document.querySelector('#run-club').style['marginTop'] = `${headerHeight}px`;
   }
 
   handleScroll = () => {

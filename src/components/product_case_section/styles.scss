@@ -35,32 +35,39 @@
     }
   }
 
-  img {
-    display: inline;
-    padding-right: 10px;
-  }
-  .pp-icon{
+  .pp-icon {
+    background: url('../../assets/pp_logo_text.svg') no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 25px;
+    width: 122px;
     position: relative;
     top: -10px;
     max-width: 10em;
     @media(max-width: 768px) and (min-width: 481px) {
-      top: -2px;
-      max-width: 153px;
+      top: -3px;
     }
     @media(max-width: 480px) {
-      top: -2px;
-      max-width: 6em;
+      top: 3px;
+      max-width: 5em;
     }
   }
   .nike-icon {
+    background: url('../../assets/Nike_Logo.svg') no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 80px;
+    margin-right: 10px;
     position: relative;
     top: -7px;
     max-width: 5.4em;
     @media(max-width: 768px) and (min-width: 481px) {
-      max-width: 74px;
+      max-width: 4em;
     }
     @media(max-width: 480px) {
-      top: -2px;
+      top: 7px;
       width: 40px;
     }
   }
