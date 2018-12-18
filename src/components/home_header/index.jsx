@@ -25,7 +25,17 @@ export const CondensedHeaderContent = ({ style }) => (
   <div className='home-header container-fluid condensed' style={style}>
     <div className='row'>
       <div className='header-description col-12 col-md-4 col-lg-5'>
-        <a className='name' onClick={() => window.scrollTo(0,0)}>Shirley Huong</a>
+        <a
+          className='name'
+          onClick={() => {
+            window.scrollTo(0,0);
+            if(window.location.pathname !== '/') {
+              window.location = '/';
+            }
+          }}
+        >
+        Shirley Huong
+        </a>
       </div>
       <div className='ctas col-12 col-lg-5 col-md-6 offset-md-2 offset-lg-2 condensed'>
         <Link text='Email' href='mailto:huongshirley@gmail.com'/>
