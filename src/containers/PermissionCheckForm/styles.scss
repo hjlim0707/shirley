@@ -28,7 +28,9 @@
         font-size: 16px;
       }
     }
-
+    .input-container {
+      display: flex;
+    }
     input {
       padding: 12px;
       background-color: #fff4e1;
@@ -39,6 +41,12 @@
     }
     input.error {
       border: 1px solid red;
+    }
+    .enter-icon {
+      position: absolute;
+      z-index: 1;
+      right: 50px;
+      bottom: 70px;
     }
 
     .error-message {

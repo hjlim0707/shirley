@@ -555,6 +555,8 @@ img.gd {
     @media (max-width: 480px) {
       .permission-check-form .form-container label {
         font-size: 16px; } }
+  .permission-check-form .form-container .input-container {
+    display: flex; }
   .permission-check-form .form-container input {
     padding: 12px;
     background-color: #fff4e1;
@@ -563,6 +565,11 @@ img.gd {
     outline: none; }
   .permission-check-form .form-container input.error {
     border: 1px solid red; }
+  .permission-check-form .form-container .enter-icon {
+    position: absolute;
+    z-index: 1;
+    right: 50px;
+    bottom: 70px; }
   .permission-check-form .form-container .error-message {
     font-family: 'akdidenz-reg';
     font-size: 12px;
@@ -588,4 +595,4 @@ body {
 html, body {
   overflow-x: hidden; }
 
-/*# sourceMappingURL=main-3014ab35ccbd86b442a3.css.map*/
+/*# sourceMappingURL=main-2a94cea53ffcedb9c88b.css.map*/

@@ -36,12 +36,15 @@ class PermissionCheckForm extends React.Component {
             <label htmlFor='password'>
               Please enter the password to view Nike Run app work.
             </label>
-            <input
-              type='password'
-              placeholder='enter password'
-              className={`col-12 ${this.state.hasError ? 'error' : null}`}
-              onChange={this.onChange}
-            />
+            <div className='input-container'>
+              <span className="enter-icon">↵</span>
+              <input
+                type='password'
+                placeholder='enter password'
+                className={`col-12 ${this.state.hasError ? 'error' : null}`}
+                onChange={this.onChange}
+              />
+            </div>
             {this.state.hasError ?
               <div className='error-message'>
                 Please try again.
