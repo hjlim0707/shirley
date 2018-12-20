@@ -34,7 +34,7 @@ export default class TuftAndNeedle extends React.PureComponent {
               />
               <Description
                 title='Time'
-                text='08/2015 — 05/2015'
+                text='05/2015 — 08/2015'
               />
               <Description
                 title='Credit'

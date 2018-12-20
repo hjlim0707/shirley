@@ -79,7 +79,7 @@ Content Designer - Robyn Ng"
                 title='Mobile Homepage Banner'
                 text="In the previous experience, where users type paperlesspost.com on mobile web, they're
                 greeted by a gaussian homepage takeover that points them to download the app or view the full site.
-                If users click to view the full site we prompt them to login or create an account. The first experienceprovided little to no value
+                If users click to view the full site we prompt them to login or create an account. The first experience provided little to no value
                 to our users when we wanted them to sign up."
               />
             </div>

@@ -12,7 +12,7 @@ export default class Home extends React.PureComponent {
         <ProductCaseSection
         id='run-club'
         title='run-club'
-        description='Music resdesign with the Nike run club app.'
+        description='Music resdesign within the Nike run club app.'
         />
         <ProductCaseSection
         id='post'
