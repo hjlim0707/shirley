@@ -20,7 +20,7 @@ export default class App extends Component {
       <section className="main">
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route path="/product/run-club" component={PermissionCheckForm}/>
+          <Route path="/product/run club" component={PermissionCheckForm}/>
           <Route path="/product/post" component={Post}/>
           <Route path="/product/flyer" component={Flyer}/>
           <Route path="/product/linkNYC" component={LinkNYC}/>

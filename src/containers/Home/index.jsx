@@ -11,8 +11,8 @@ export default class Home extends React.PureComponent {
         <HomeHeader />
         <ProductCaseSection
         id='run-club'
-        title='run-club'
-        description='Music resdesign within the Nike run club app.'
+        title='run club'
+        description='Music redesign within the Nike run club app.'
         />
         <ProductCaseSection
         id='post'

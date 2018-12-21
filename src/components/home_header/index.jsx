@@ -14,8 +14,8 @@ const FullHeaderContent = () => (
       </div>
       <div className='ctas col-12 col-lg-5 offset-lg-2'>
         <Link text='Email' href='mailto:huongshirley@gmail.com'/>
-        <Link text='Resume' href='../../assets/Shirley_Huong_Resume.pdf' />
-        <Link text='IG' href='http://www.instagram.com/shirleyisfishing'/>
+        <Link text='Resume' target='_blank' href='../../assets/Shirley_Huong_Resume.pdf' />
+        <Link text='IG' target='_blank' href='http://www.instagram.com/shirleyisfishing'/>
       </div>
     </div>
   </div>
@@ -39,8 +39,8 @@ export const CondensedHeaderContent = ({ style }) => (
       </div>
       <div className='ctas col-12 col-lg-5 col-md-6 offset-md-2 offset-lg-2 condensed'>
         <Link text='Email' href='mailto:huongshirley@gmail.com'/>
-        <Link text='Resume' href='../../assets/Shirley_Huong_Resume.pdf' />
-        <Link text='IG' href='http://www.instagram.com/shirleyisfishing'/>
+        <Link text='Resume' target='_blank' href='../../assets/Shirley_Huong_Resume.pdf' />
+        <Link text='IG' target='_blank' href='http://www.instagram.com/shirleyisfishing'/>
       </div>
     </div>
   </div>

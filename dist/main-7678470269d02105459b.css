@@ -543,7 +543,7 @@ img.gd {
   padding: 62px 32px; }
   @media (max-width: 480px) {
     .permission-check-form .form-container {
-      padding-top: 48px; } }
+      padding: 48px 24px 0; } }
   .permission-check-form .form-container label {
     font-family: 'perpetua';
     text-transform: uppercase;
@@ -598,4 +598,4 @@ body {
 html, body {
   overflow-x: hidden; }
 
-/*# sourceMappingURL=main-9c327dfc13eb5e279c5d.css.map*/
+/*# sourceMappingURL=main-7678470269d02105459b.css.map*/
