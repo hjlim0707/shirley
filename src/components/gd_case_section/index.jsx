@@ -50,7 +50,7 @@ export default class GDCaseSection extends React.PureComponent {
     return (
       <div className='gd-case-section' id={this.props.id} onMouseOver={this.hover} onMouseLeave={this.unhover}>
         <Link className={`gd-case-link ${this.props.id}`} to={`/gd/${this.props.title}`}>
-          <div className={`col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 ${this.props.id}`}>
+          <div className={`gd-case-content-wrapper ${this.props.id}`}>
             {this.renderTitle()}
             {this.renderChiIcon()}
             <span className={`horizontal-line ${this.props.id}`}>

@@ -20,6 +20,28 @@
   background-color: #f9f9f9;
   border-bottom: 1px solid black;
   z-index: 1;
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    @media(max-width: 1023px) {
+      flex-direction: column;
+    }
+  }
+  .header-description {
+    @media(min-width: 769px) {
+      width: 663px;
+    }
+    @media(min-width: 481px) and (max-width: 768px) {
+      width: 521px;
+    }
+    @media(min-width: 376px) and (max-width: 480px) {
+      width: 369px;
+    }
+
+    @media(max-width: 375px) {
+      width: 327px;
+    }
+  }
   @media(max-width: 576px) {
     &.full {
       padding: 24px 24px 72px;
@@ -52,9 +74,6 @@
   .ctas {
     @media(max-width: 991px) and (min-width: 481px) {
       margin-top: 48px;
-    }
-    @media(min-width: 992px) {
-      text-align: right;
     }
     @media(max-width: 768px) {
       margin-top: 24px;

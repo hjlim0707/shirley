@@ -55,7 +55,7 @@ export default class ProductCaseSection extends React.PureComponent {
         onMouseLeave={this.unhover}
       >
         <Link className={`product-case-link ${this.props.id}`} to={`/product/${this.props.title}`}>
-          <div className={`col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 ${this.props.id}`}>
+          <div className={`product-case-content-wrapper ${this.props.id}`}>
             {id === 'post' && this.renderPPIcon()}
             {id === 'run-club' && this.renderNikeIcon()}
             <span className={`product-case-title ${this.props.id}`}>

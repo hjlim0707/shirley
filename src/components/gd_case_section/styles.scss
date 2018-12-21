@@ -35,6 +35,19 @@
     }
   }
 
+  .gd-case-content-wrapper {
+    margin: 0 auto;
+    @media(min-width: 1024px) {
+      width: 845px;
+    }
+    @media(min-width: 481px) and (max-width: 1023px) {
+      width: 588px;
+    }
+    @media(max-width: 480px) {
+      width: 327px;
+    }
+  }
+
   img {
     position: relative;
     bottom: 12px;

@@ -8,11 +8,11 @@ import Styles from './styles.scss';
 
 const FullHeaderContent = () => (
   <div className='home-header container-fluid full'>
-    <div className='row'>
-      <div className='header-description col-11 col-md-10 col-lg-5'>
+    <div className='header-flex'>
+      <div className='header-description'>
         <a className='name' onClick={() => window.scrollTo(0,0)}>Shirley Huong </a> is a digital product designer based in Brooklyn, NYC.
       </div>
-      <div className='ctas col-12 col-lg-5 offset-lg-2'>
+      <div className='ctas'>
         <Link text='Email' href='mailto:huongshirley@gmail.com'/>
         <Link text='Resume' target='_blank' href='../../assets/Shirley_Huong_Resume.pdf' />
         <Link text='IG' target='_blank' href='http://www.instagram.com/shirleyisfishing'/>
@@ -23,8 +23,8 @@ const FullHeaderContent = () => (
 
 export const CondensedHeaderContent = ({ style }) => (
   <div className='home-header container-fluid condensed' style={style}>
-    <div className='row'>
-      <div className='header-description col-12 col-md-4 col-lg-5'>
+    <div className='header-flex'>
+      <div className='header-description'>
         <a
           className='name'
           onClick={() => {
@@ -37,7 +37,7 @@ export const CondensedHeaderContent = ({ style }) => (
         Shirley Huong
         </a>
       </div>
-      <div className='ctas col-12 col-lg-5 col-md-6 offset-md-2 offset-lg-2 condensed'>
+      <div className='ctas condensed'>
         <Link text='Email' href='mailto:huongshirley@gmail.com'/>
         <Link text='Resume' target='_blank' href='../../assets/Shirley_Huong_Resume.pdf' />
         <Link text='IG' target='_blank' href='http://www.instagram.com/shirleyisfishing'/>
