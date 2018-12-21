@@ -30,20 +30,20 @@ class PermissionCheckForm extends React.Component {
     return sessionStorage.getItem('run-club') ? <NikeRunClub /> : (
       <div className='permission-check-form'>
         <CondensedHeaderContent style={{ position: 'static' }}/>
-        <div className='form-container col-10 col-md-8'>
+        <div className='form-container'>
           <div className='nike-icon' />
+          <div className='input-text'>
+          Please enter the password to view Nike Run Club app work.
+          </div>
           <form onSubmit={this.onSubmit}>
-            <label htmlFor='password'>
-              Please enter the password to view Nike Run Club app work.
-            </label>
             <div className='input-container'>
-              <span className="enter-icon">↵</span>
               <input
                 type='password'
                 placeholder='enter password'
-                className={`col-12 ${this.state.hasError ? 'error' : null}`}
+                className={`password-input ${this.state.hasError ? 'error' : ''}`}
                 onChange={this.onChange}
               />
+              <span className="enter-icon">↵</span>
             </div>
             {this.state.hasError ?
               <div className='error-message'>
