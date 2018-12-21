@@ -78,7 +78,7 @@
   @media (max-width: 991px) and (min-width: 481px) {
     .home-header .ctas {
       margin-top: 48px; } }
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     .home-header .ctas {
       margin-top: 24px; }
       .home-header .ctas.condensed {
@@ -698,4 +698,4 @@ body {
 html, body {
   overflow-x: hidden; }
 
-/*# sourceMappingURL=main-6776ddaefcc980124d79.css.map*/
+/*# sourceMappingURL=main-afaa79330c6f3e64c8f1.css.map*/
