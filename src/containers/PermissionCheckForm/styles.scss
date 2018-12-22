@@ -39,6 +39,7 @@
         width: 327px;
       }
     }
+
     .input-container {
       display: flex;
       position: relative;
@@ -83,7 +84,7 @@
         width: 95%;
       }
       @media(min-width: 660px) and (max-width: 768px) {
-        font-size: 32px;
+        font-size: 24px;
         height: 70px;
         width: 659px;
       }

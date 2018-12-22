@@ -41,7 +41,7 @@ class PermissionCheckForm extends React.Component {
         <div className='form-container'>
           <div className='nike-icon' />
           <div className='input-text'>
-          Please enter the password to view Nike Run Club app work.
+            Please enter the password to view Nike Run Club app work.
           </div>
           <form onSubmit={this.onSubmit}>
             <div className='input-container'>

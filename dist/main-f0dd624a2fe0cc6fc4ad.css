@@ -649,7 +649,7 @@ img.gd {
         width: 95%; } }
     @media (min-width: 660px) and (max-width: 768px) {
       .permission-check-form .form-container .password-input {
-        font-size: 32px;
+        font-size: 24px;
         height: 70px;
         width: 659px; } }
     @media (max-width: 659px) {
@@ -710,4 +710,4 @@ body {
 html, body {
   overflow-x: hidden; }
 
-/*# sourceMappingURL=main-3c4b3dcf986ad90d7135.css.map*/
+/*# sourceMappingURL=main-f0dd624a2fe0cc6fc4ad.css.map*/
