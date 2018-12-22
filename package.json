@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack/webpack.config.local.js --hot --inline",
-    "start": "NODE_ENV=production npm install && npm run build",
-    "build": "webpack --config ./webpack/webpack.config.prod.js",
-    "prod": "NODE_ENV=production node Server.js"
+    "build": "webpack --config ./webpack/webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
