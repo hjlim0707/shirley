@@ -10,10 +10,18 @@ class PermissionCheckForm extends React.Component {
   state = {
     currPassword: '',
     hasError: false,
+    className: 'akdidenz-light'
   };
 
   onChange = (e) => {
-    this.setState({ currPassword: e.target.value, hasError: false });
+    this.setState({ currPassword: e.target.value, hasError: false }, () => {
+      if(this.state.currPassword.length) {
+        this.setState({ className: 'akdidenz-reg' });
+      }
+      if(!this.state.currPassword.length) {
+        this.setState({ className: 'akdidenz-light' });
+      }
+    });
   }
 
   onSubmit = (e) => {
@@ -40,7 +48,7 @@ class PermissionCheckForm extends React.Component {
               <input
                 type='password'
                 placeholder='enter password'
-                className={`password-input ${this.state.hasError ? 'error' : ''}`}
+                className={`password-input ${this.state.className} ${this.state.hasError ? 'error' : ''}`}
                 onChange={this.onChange}
               />
               <span className="enter-icon">↵</span>

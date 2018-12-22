@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'akdidenz-reg';
+  src: url('../../fonts/Akzidenz-Grotesk-BQ-Regular_2840.ttf');
+}
+
+@font-face {
   font-family: 'akdidenz-light';
   src: url('../../fonts/Akzidenz-Grotesk-BQ-Light_2831.ttf');
 }
@@ -56,15 +61,19 @@
     }
 
     .password-input {
-      font-family: 'akdidenz-light';
+      &.akdidenz-light {
+        font-family: 'akdidenz-light';
+      }
+      &.initial {
+        font-family: 'akdidenz-reg';
+      }
       padding: 12px;
       background-color: #fff4e1;
       border-style: none;
-      color: #8d8d8d;
       @media(min-width: 795px) {
         height: 70px;
         width: 794px;
-        font-size: 40px;
+        font-size: 32px;
         line-height: 1.2;
         character: 0.4;
       }
@@ -109,8 +118,14 @@
     .error-message {
       padding-top: 4px;
       font-family: 'akdidenz-light';
-      font-size: 12px;
+      font-size: 20px;
       color: red;
+      @media(min-width: 1024px) {
+        font-size: 24px;
+      }
+      @media(max-width: 480px) {
+        font-size: 14px;
+      }
     }
   }
 
