@@ -26,7 +26,7 @@ class PermissionCheckForm extends React.Component {
 
   onSubmit = (e) => {
     e.preventDefault();
-    if(this.state.currPassword === 'Password') {
+    if(this.state.currPassword === 'NewPassword') {
       sessionStorage.setItem('run-club', 'true');
       setTimeout(() => this.forceUpdate(), 500);
     } else {
